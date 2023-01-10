@@ -1,0 +1,11 @@
+/* C:/Users/SidRay/AppData/Local/Temp/bootgen_spg_ecu_bringup_system13274894388803132431/sd_card_temp/boot.bif */
+/* Command to create bitstream .bin file:       */
+/*   bootgen -image <bif_file> -split bin -w    */
+/* Command to create BOOT.BIN file:             */
+/*   bootgen  -image <bif_file> -w -o i BOOT.BIN */
+/*spg_ecu_platform*/
+the_ROM_image:
+{
+ [bootloader] C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/boot/fsbl.elf
+ C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf
+}

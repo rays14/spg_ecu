@@ -1,0 +1,6 @@
+11:27:44 **** Build of configuration Emulation-SW for project spg_ecu_bringup_system ****
+make all 
+Package not supported, if the system project is in Emulation Target, and only Baremetal Or Embedded Linux Applications present
+
+11:27:44 Build Finished (took 88ms)
+
