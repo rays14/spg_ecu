@@ -18,3 +18,11 @@ platform active {spg_ecu_platform}
 platform generate
 bsp reload
 bsp write
+platform generate -domains 
+platform active {spg_ecu_platform}
+platform config -updatehw {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa}
+platform generate -domains 

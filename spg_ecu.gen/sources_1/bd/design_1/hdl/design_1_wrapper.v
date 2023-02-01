@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-//Date        : Tue Jan 10 11:17:27 2023
+//Date        : Mon Jan 30 12:19:58 2023
 //Host        : LAPTOP-LRNTV21L running 64-bit major release  (build 9200)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
@@ -25,14 +25,23 @@ module design_1_wrapper
     DDR_ras_n,
     DDR_reset_n,
     DDR_we_n,
-    FCLK_CLK0,
     FIXED_IO_ddr_vrn,
     FIXED_IO_ddr_vrp,
     FIXED_IO_mio,
     FIXED_IO_ps_clk,
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
-    hbOut);
+    arduinoIO4Out,
+    arduinoIO5Out,
+    arduinoIO6Out,
+    arduinoIO7Out,
+    hbLedOut,
+    hbOut,
+    pwm0Out,
+    sw2In,
+    sw3In,
+    sw4In,
+    sw5In);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -48,14 +57,23 @@ module design_1_wrapper
   inout DDR_ras_n;
   inout DDR_reset_n;
   inout DDR_we_n;
-  output FCLK_CLK0;
   inout FIXED_IO_ddr_vrn;
   inout FIXED_IO_ddr_vrp;
   inout [53:0]FIXED_IO_mio;
   inout FIXED_IO_ps_clk;
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
+  output arduinoIO4Out;
+  output arduinoIO5Out;
+  output arduinoIO6Out;
+  output arduinoIO7Out;
+  output hbLedOut;
   output hbOut;
+  output pwm0Out;
+  input sw2In;
+  input sw3In;
+  input sw4In;
+  input sw5In;
 
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
@@ -72,14 +90,23 @@ module design_1_wrapper
   wire DDR_ras_n;
   wire DDR_reset_n;
   wire DDR_we_n;
-  wire FCLK_CLK0;
   wire FIXED_IO_ddr_vrn;
   wire FIXED_IO_ddr_vrp;
   wire [53:0]FIXED_IO_mio;
   wire FIXED_IO_ps_clk;
   wire FIXED_IO_ps_porb;
   wire FIXED_IO_ps_srstb;
+  wire arduinoIO4Out;
+  wire arduinoIO5Out;
+  wire arduinoIO6Out;
+  wire arduinoIO7Out;
+  wire hbLedOut;
   wire hbOut;
+  wire pwm0Out;
+  wire sw2In;
+  wire sw3In;
+  wire sw4In;
+  wire sw5In;
 
   design_1 design_1_i
        (.DDR_addr(DDR_addr),
@@ -97,12 +124,21 @@ module design_1_wrapper
         .DDR_ras_n(DDR_ras_n),
         .DDR_reset_n(DDR_reset_n),
         .DDR_we_n(DDR_we_n),
-        .FCLK_CLK0(FCLK_CLK0),
         .FIXED_IO_ddr_vrn(FIXED_IO_ddr_vrn),
         .FIXED_IO_ddr_vrp(FIXED_IO_ddr_vrp),
         .FIXED_IO_mio(FIXED_IO_mio),
         .FIXED_IO_ps_clk(FIXED_IO_ps_clk),
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
         .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
-        .hbOut(hbOut));
+        .arduinoIO4Out(arduinoIO4Out),
+        .arduinoIO5Out(arduinoIO5Out),
+        .arduinoIO6Out(arduinoIO6Out),
+        .arduinoIO7Out(arduinoIO7Out),
+        .hbLedOut(hbLedOut),
+        .hbOut(hbOut),
+        .pwm0Out(pwm0Out),
+        .sw2In(sw2In),
+        .sw3In(sw3In),
+        .sw4In(sw4In),
+        .sw5In(sw5In));
 endmodule

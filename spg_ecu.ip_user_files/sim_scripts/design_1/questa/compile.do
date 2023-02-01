@@ -8,6 +8,7 @@ vlib questa_lib/msim/processing_system7_vip_v1_0_10
 vlib questa_lib/msim/xil_defaultlib
 vlib questa_lib/msim/lib_cdc_v1_0_2
 vlib questa_lib/msim/proc_sys_reset_v5_0_13
+vlib questa_lib/msim/xlconstant_v1_1_7
 
 vmap xilinx_vip questa_lib/msim/xilinx_vip
 vmap axi_infrastructure_v1_1_0 questa_lib/msim/axi_infrastructure_v1_1_0
@@ -16,6 +17,7 @@ vmap processing_system7_vip_v1_0_10 questa_lib/msim/processing_system7_vip_v1_0_
 vmap xil_defaultlib questa_lib/msim/xil_defaultlib
 vmap lib_cdc_v1_0_2 questa_lib/msim/lib_cdc_v1_0_2
 vmap proc_sys_reset_v5_0_13 questa_lib/msim/proc_sys_reset_v5_0_13
+vmap xlconstant_v1_1_7 questa_lib/msim/xlconstant_v1_1_7
 
 vlog -work xilinx_vip  -sv -L axi_vip_v1_1_8 -L processing_system7_vip_v1_0_10 -L xilinx_vip "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
 "C:/Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
@@ -51,6 +53,13 @@ vcom -work xil_defaultlib  -93 \
 
 vlog -work xil_defaultlib  "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
 "../../../bd/design_1/ip/design_1_hb_0_0/sim/design_1_hb_0_0.v" \
+"../../../bd/design_1/ip/design_1_kato_top_0_2/sim/design_1_kato_top_0_2.v" \
+
+vlog -work xlconstant_v1_1_7  "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v" \
+
+vlog -work xil_defaultlib  "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
 "../../../bd/design_1/sim/design_1.v" \
 
 vlog -work xil_defaultlib \

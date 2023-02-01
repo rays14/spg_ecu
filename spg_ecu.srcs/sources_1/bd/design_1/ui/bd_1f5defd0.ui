@@ -1,29 +1,51 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"1.5",
-   "Default View_TopLeft":"-61,-885",
+   "Default View_TopLeft":"-465,-877",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
 #  -string -flagsOSRD
-preplace port DDR -pg 1 -lvl 3 -x 680 -y -400 -defaultsOSRD
-preplace port FIXED_IO -pg 1 -lvl 3 -x 680 -y -360 -defaultsOSRD
-preplace port hbOut -pg 1 -lvl 3 -x 680 -y -690 -defaultsOSRD
-preplace port FCLK_CLK0 -pg 1 -lvl 3 -x 680 -y -220 -defaultsOSRD
-preplace inst processing_system7_0 -pg 1 -lvl 2 -x 420 -y -290 -defaultsOSRD
-preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 420 -y -630 -defaultsOSRD
-preplace inst hb_0 -pg 1 -lvl 1 -x 100 -y -690 -defaultsOSRD
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 0 -620 200 -140 630
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 210 -740 620
-preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 3 -10 -760 NJ -760 630
-preplace netloc hb_0_hbOut 1 1 2 200J -730 640
-preplace netloc processing_system7_0_DDR 1 2 1 640J -400n
-preplace netloc processing_system7_0_FIXED_IO 1 2 1 NJ -360
-levelinfo -pg 1 -30 100 420 680
-pagesize -pg 1 -db -bbox -sgen -30 -850 800 200
+preplace port DDR -pg 1 -lvl 5 -x 1050 -y -510 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1050 -y -390 -defaultsOSRD
+preplace port hbOut -pg 1 -lvl 5 -x 1050 -y -690 -defaultsOSRD
+preplace port hbLedOut -pg 1 -lvl 5 -x 1050 -y -290 -defaultsOSRD
+preplace port pwm0Out -pg 1 -lvl 5 -x 1050 -y -480 -defaultsOSRD
+preplace port arduinoIO7Out -pg 1 -lvl 5 -x 1050 -y -450 -defaultsOSRD
+preplace port arduinoIO6Out -pg 1 -lvl 5 -x 1050 -y -420 -defaultsOSRD
+preplace port arduinoIO5Out -pg 1 -lvl 5 -x 1050 -y -360 -defaultsOSRD
+preplace port arduinoIO4Out -pg 1 -lvl 5 -x 1050 -y -330 -defaultsOSRD
+preplace port sw2In -pg 1 -lvl 0 -x -160 -y -410 -defaultsOSRD
+preplace port sw3In -pg 1 -lvl 0 -x -160 -y -380 -defaultsOSRD
+preplace port sw4In -pg 1 -lvl 0 -x -160 -y -350 -defaultsOSRD
+preplace port sw5In -pg 1 -lvl 0 -x -160 -y -320 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -x 770 -y -290 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 4 -x 770 -y -630 -defaultsOSRD
+preplace inst hb_0 -pg 1 -lvl 3 -x 460 -y -690 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x -60 -y -500 -defaultsOSRD
+preplace inst kato_top_0 -pg 1 -lvl 2 -x 180 -y -360 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 4 60 -480 310 -500 560 -130 970
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 3 2 570 -740 980
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 4 50 -490 300 -760 NJ -760 990
+preplace netloc hb_0_hbOut 1 3 2 560J -730 1010
+preplace netloc kato_top_0_hbLedOut 1 2 3 330J -140 NJ -140 1010
+preplace netloc kato_top_0_pwm0Out 1 2 3 320 -480 NJ -480 NJ
+preplace netloc kato_top_0_arduinoIO7Out 1 2 3 340 -460 NJ -460 1030J
+preplace netloc kato_top_0_arduinoIO6Out 1 2 3 350 -440 NJ -440 1000J
+preplace netloc kato_top_0_arduinoIO5Out 1 2 3 330 -490 NJ -490 1020J
+preplace netloc kato_top_0_arduinoIO4Out 1 2 3 360 -450 NJ -450 990J
+preplace netloc sw2In_1 1 0 2 N -410 30
+preplace netloc sw3In_1 1 0 2 N -380 20
+preplace netloc sw4In_1 1 0 2 N -350 30
+preplace netloc sw5In_1 1 0 2 N -320 N
+preplace netloc xlconstant_0_dout 1 1 1 40 -500n
+preplace netloc processing_system7_0_FIXED_IO 1 4 1 1000J -390n
+preplace netloc processing_system7_0_DDR 1 4 1 1010J -510n
+levelinfo -pg 1 -160 -60 180 460 770 1050
+pagesize -pg 1 -db -bbox -sgen -250 -850 1200 200
 "
 }
 {
    "da_board_cnt":"1",
-   "da_clkrst_cnt":"2",
+   "da_clkrst_cnt":"4",
    "da_ps7_cnt":"1"
 }

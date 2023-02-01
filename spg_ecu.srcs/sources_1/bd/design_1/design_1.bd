@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xF0D0DA173B1DD866",
+      "boundary_crc": "0xE8A54AA88FF7B286",
       "device": "xc7z010clg400-1",
       "gen_directory": "../../../../spg_ecu.gen/sources_1/bd/design_1",
       "name": "design_1",
@@ -14,7 +14,9 @@
     "design_tree": {
       "processing_system7_0": "",
       "proc_sys_reset_0": "",
-      "hb_0": ""
+      "hb_0": "",
+      "xlconstant_0": "",
+      "kato_top_0": ""
     },
     "interface_ports": {
       "DDR": {
@@ -86,31 +88,35 @@
       "hbOut": {
         "direction": "O"
       },
-      "FCLK_CLK0": {
-        "type": "clk",
-        "direction": "O",
-        "parameters": {
-          "CLK_DOMAIN": {
-            "value": "design_1_processing_system7_0_0_FCLK_CLK0",
-            "value_src": "default_prop"
-          },
-          "FREQ_HZ": {
-            "value": "100000000",
-            "value_src": "user_prop"
-          },
-          "FREQ_TOLERANCE_HZ": {
-            "value": "0",
-            "value_src": "default"
-          },
-          "INSERT_VIP": {
-            "value": "0",
-            "value_src": "default"
-          },
-          "PHASE": {
-            "value": "0.000",
-            "value_src": "default"
-          }
-        }
+      "hbLedOut": {
+        "direction": "O"
+      },
+      "pwm0Out": {
+        "direction": "O"
+      },
+      "arduinoIO7Out": {
+        "direction": "O"
+      },
+      "arduinoIO6Out": {
+        "direction": "O"
+      },
+      "arduinoIO5Out": {
+        "direction": "O"
+      },
+      "arduinoIO4Out": {
+        "direction": "O"
+      },
+      "sw2In": {
+        "direction": "I"
+      },
+      "sw3In": {
+        "direction": "I"
+      },
+      "sw4In": {
+        "direction": "I"
+      },
+      "sw5In": {
+        "direction": "I"
       }
     },
     "components": {
@@ -1931,19 +1937,99 @@
             "direction": "O"
           }
         }
+      },
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_0_0",
+        "xci_path": "ip\\design_1_xlconstant_0_0\\design_1_xlconstant_0_0.xci",
+        "inst_hier_path": "xlconstant_0",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "1"
+          }
+        }
+      },
+      "kato_top_0": {
+        "vlnv": "xilinx.com:module_ref:kato_top:1.0",
+        "xci_name": "design_1_kato_top_0_2",
+        "xci_path": "ip\\design_1_kato_top_0_2\\design_1_kato_top_0_2.xci",
+        "inst_hier_path": "kato_top_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "kato_top",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clkIn": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_processing_system7_0_0_FCLK_CLK0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "sw1In": {
+            "direction": "I"
+          },
+          "sw2In": {
+            "direction": "I"
+          },
+          "sw3In": {
+            "direction": "I"
+          },
+          "sw4In": {
+            "direction": "I"
+          },
+          "sw5In": {
+            "direction": "I"
+          },
+          "nrstIn": {
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_LOW",
+                "value_src": "const_prop"
+              }
+            }
+          },
+          "pwm0Out": {
+            "direction": "O"
+          },
+          "arduinoIO7Out": {
+            "direction": "O"
+          },
+          "arduinoIO6Out": {
+            "direction": "O"
+          },
+          "arduinoIO5Out": {
+            "direction": "O"
+          },
+          "arduinoIO4Out": {
+            "direction": "O"
+          },
+          "hbLedOut": {
+            "direction": "O"
+          }
+        }
       }
     },
     "interface_nets": {
-      "processing_system7_0_FIXED_IO": {
-        "interface_ports": [
-          "FIXED_IO",
-          "processing_system7_0/FIXED_IO"
-        ]
-      },
       "processing_system7_0_DDR": {
         "interface_ports": [
           "DDR",
           "processing_system7_0/DDR"
+        ]
+      },
+      "processing_system7_0_FIXED_IO": {
+        "interface_ports": [
+          "FIXED_IO",
+          "processing_system7_0/FIXED_IO"
         ]
       }
     },
@@ -1954,7 +2040,7 @@
           "hb_0/clkIn",
           "proc_sys_reset_0/slowest_sync_clk",
           "processing_system7_0/M_AXI_GP0_ACLK",
-          "FCLK_CLK0"
+          "kato_top_0/clkIn"
         ]
       },
       "processing_system7_0_FCLK_RESET0_N": {
@@ -1966,13 +2052,80 @@
       "proc_sys_reset_0_peripheral_aresetn": {
         "ports": [
           "proc_sys_reset_0/peripheral_aresetn",
-          "hb_0/nrstIn"
+          "hb_0/nrstIn",
+          "kato_top_0/nrstIn"
         ]
       },
       "hb_0_hbOut": {
         "ports": [
           "hb_0/hbOut",
           "hbOut"
+        ]
+      },
+      "kato_top_0_hbLedOut": {
+        "ports": [
+          "kato_top_0/hbLedOut",
+          "hbLedOut"
+        ]
+      },
+      "kato_top_0_pwm0Out": {
+        "ports": [
+          "kato_top_0/pwm0Out",
+          "pwm0Out"
+        ]
+      },
+      "kato_top_0_arduinoIO7Out": {
+        "ports": [
+          "kato_top_0/arduinoIO7Out",
+          "arduinoIO7Out"
+        ]
+      },
+      "kato_top_0_arduinoIO6Out": {
+        "ports": [
+          "kato_top_0/arduinoIO6Out",
+          "arduinoIO6Out"
+        ]
+      },
+      "kato_top_0_arduinoIO5Out": {
+        "ports": [
+          "kato_top_0/arduinoIO5Out",
+          "arduinoIO5Out"
+        ]
+      },
+      "kato_top_0_arduinoIO4Out": {
+        "ports": [
+          "kato_top_0/arduinoIO4Out",
+          "arduinoIO4Out"
+        ]
+      },
+      "sw2In_1": {
+        "ports": [
+          "sw2In",
+          "kato_top_0/sw2In"
+        ]
+      },
+      "sw3In_1": {
+        "ports": [
+          "sw3In",
+          "kato_top_0/sw3In"
+        ]
+      },
+      "sw4In_1": {
+        "ports": [
+          "sw4In",
+          "kato_top_0/sw4In"
+        ]
+      },
+      "sw5In_1": {
+        "ports": [
+          "sw5In",
+          "kato_top_0/sw5In"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "xlconstant_0/dout",
+          "kato_top_0/sw1In"
         ]
       }
     }

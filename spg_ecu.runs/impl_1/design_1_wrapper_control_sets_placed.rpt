@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Tue Jan 10 11:19:05 2023
+| Date         : Mon Jan 30 12:24:46 2023
 | Host         : LAPTOP-LRNTV21L running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
 | Design       : design_1_wrapper
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |     4 |
-|    Minimum number of control sets                        |     4 |
+| Total control sets                                       |    16 |
+|    Minimum number of control sets                        |    16 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |     6 |
+| Unused register locations in slices containing registers |    25 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,15 +39,15 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |     4 |
-| >= 0 to < 4        |     0 |
+| Total control sets |    16 |
+| >= 0 to < 4        |     1 |
 | >= 4 to < 6        |     1 |
-| >= 6 to < 8        |     1 |
+| >= 6 to < 8        |     3 |
 | >= 8 to < 10       |     0 |
 | >= 10 to < 12      |     0 |
 | >= 12 to < 14      |     0 |
 | >= 14 to < 16      |     0 |
-| >= 16              |     2 |
+| >= 16              |    11 |
 +--------------------+-------+
 * Control sets can be remapped at either synth_design or opt_design
 
@@ -58,25 +58,37 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              24 |            9 |
+| No           | No                    | No                     |              29 |           11 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              36 |           11 |
+| No           | Yes                   | No                     |             200 |           53 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |               6 |            2 |
+| Yes          | Yes                   | No                     |             146 |           37 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 4. Detailed Control Set Information
 -----------------------------------
 
-+-------------------------------------------------+-----------------------------------------------+------------------------------------------------------+------------------+----------------+--------------+
-|                   Clock Signal                  |                 Enable Signal                 |                   Set/Reset Signal                   | Slice Load Count | Bel Load Count | Bels / Slice |
-+-------------------------------------------------+-----------------------------------------------+------------------------------------------------------+------------------+----------------+--------------+
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                               | design_1_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int       |                3 |              4 |         1.33 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/proc_sys_reset_0/U0/SEQ/seq_cnt_en | design_1_i/proc_sys_reset_0/U0/SEQ/SEQ_COUNTER/clear |                2 |              6 |         3.00 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                               |                                                      |               10 |             25 |         2.50 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                               | design_1_i/hb_0/inst/countR[0]_i_1_n_0               |                8 |             32 |         4.00 |
-+-------------------------------------------------+-----------------------------------------------+------------------------------------------------------+------------------+----------------+--------------+
++-------------------------------------------------+------------------------------------------------+-----------------------------------------------------------------+------------------+----------------+--------------+
+|                   Clock Signal                  |                  Enable Signal                 |                         Set/Reset Signal                        | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------------------------------------+------------------------------------------------+-----------------------------------------------------------------+------------------+----------------+--------------+
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                | design_1_i/kato_top_0/inst/rst                                  |                1 |              3 |         3.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                | design_1_i/proc_sys_reset_0/U0/EXT_LPF/lpf_int                  |                3 |              4 |         1.33 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/proc_sys_reset_0/U0/SEQ/seq_cnt_en  | design_1_i/proc_sys_reset_0/U0/SEQ/SEQ_COUNTER/clear            |                1 |              6 |         6.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/kato_top_0/inst/period0R[7]_i_1_n_0 | design_1_i/kato_top_0/inst/rstSync                              |                2 |              6 |         3.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/kato_top_0/inst/period1R[7]_i_1_n_0 | design_1_i/kato_top_0/inst/rstSync                              |                2 |              6 |         3.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                |                                                                 |               12 |             30 |         2.50 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                | design_1_i/hb_0/inst/countR[0]_i_1_n_0                          |                8 |             32 |         4.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                | design_1_i/kato_top_0/inst/pwm_inst_2/samplingCnt[0]_i_1__1_n_0 |                8 |             32 |         4.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                | design_1_i/kato_top_0/inst/pwm_inst_0/samplingCnt[0]_i_1_n_0    |                8 |             32 |         4.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                | design_1_i/kato_top_0/inst/pwm_inst_1/samplingCnt[0]_i_1__0_n_0 |                8 |             32 |         4.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                | design_1_i/kato_top_0/inst/pwm_inst_3/samplingCnt[0]_i_1__2_n_0 |                8 |             32 |         4.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/kato_top_0/inst/pwm_inst_2/countR0  | design_1_i/kato_top_0/inst/pwm_inst_2/countR[0]_i_1__1_n_0      |                8 |             32 |         4.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/kato_top_0/inst/pwm_inst_0/countR0  | design_1_i/kato_top_0/inst/pwm_inst_0/countR[0]_i_1_n_0         |                8 |             32 |         4.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/kato_top_0/inst/pwm_inst_1/countR0  | design_1_i/kato_top_0/inst/pwm_inst_1/countR[0]_i_1__0_n_0      |                8 |             32 |         4.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/kato_top_0/inst/pwm_inst_3/countR0  | design_1_i/kato_top_0/inst/pwm_inst_3/countR[0]_i_1__2_n_0      |                8 |             32 |         4.00 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                | design_1_i/kato_top_0/inst/hbCountR[0]_i_1_n_0                  |                9 |             33 |         3.67 |
++-------------------------------------------------+------------------------------------------------+-----------------------------------------------------------------+------------------+----------------+--------------+
 
 

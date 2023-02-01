@@ -40,7 +40,7 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 
 # The design that will be created by this Tcl script contains the following 
 # module references:
-# hb
+# hb, kato_top
 
 # Please add the sources of those modules before sourcing this Tcl script.
 
@@ -169,8 +169,17 @@ proc create_root_design { parentCell } {
 
 
   # Create ports
-  set FCLK_CLK0 [ create_bd_port -dir O -type clk FCLK_CLK0 ]
+  set arduinoIO4Out [ create_bd_port -dir O arduinoIO4Out ]
+  set arduinoIO5Out [ create_bd_port -dir O arduinoIO5Out ]
+  set arduinoIO6Out [ create_bd_port -dir O arduinoIO6Out ]
+  set arduinoIO7Out [ create_bd_port -dir O arduinoIO7Out ]
+  set hbLedOut [ create_bd_port -dir O hbLedOut ]
   set hbOut [ create_bd_port -dir O hbOut ]
+  set pwm0Out [ create_bd_port -dir O pwm0Out ]
+  set sw2In [ create_bd_port -dir I sw2In ]
+  set sw3In [ create_bd_port -dir I sw3In ]
+  set sw4In [ create_bd_port -dir I sw4In ]
+  set sw5In [ create_bd_port -dir I sw5In ]
 
   # Create instance: hb_0, and set properties
   set block_name hb
@@ -179,6 +188,17 @@ proc create_root_design { parentCell } {
      catch {common::send_gid_msg -ssname BD::TCL -id 2095 -severity "ERROR" "Unable to add referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
      return 1
    } elseif { $hb_0 eq "" } {
+     catch {common::send_gid_msg -ssname BD::TCL -id 2096 -severity "ERROR" "Unable to referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
+     return 1
+   }
+  
+  # Create instance: kato_top_0, and set properties
+  set block_name kato_top
+  set block_cell_name kato_top_0
+  if { [catch {set kato_top_0 [create_bd_cell -type module -reference $block_name $block_cell_name] } errmsg] } {
+     catch {common::send_gid_msg -ssname BD::TCL -id 2095 -severity "ERROR" "Unable to add referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
+     return 1
+   } elseif { $kato_top_0 eq "" } {
      catch {common::send_gid_msg -ssname BD::TCL -id 2096 -severity "ERROR" "Unable to referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
      return 1
    }
@@ -909,15 +929,32 @@ proc create_root_design { parentCell } {
    CONFIG.PCW_WDT_PERIPHERAL_FREQMHZ {133.333333} \
  ] $processing_system7_0
 
+  # Create instance: xlconstant_0, and set properties
+  set xlconstant_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0 ]
+  set_property -dict [ list \
+   CONFIG.CONST_VAL {1} \
+ ] $xlconstant_0
+
   # Create interface connections
   connect_bd_intf_net -intf_net processing_system7_0_DDR [get_bd_intf_ports DDR] [get_bd_intf_pins processing_system7_0/DDR]
   connect_bd_intf_net -intf_net processing_system7_0_FIXED_IO [get_bd_intf_ports FIXED_IO] [get_bd_intf_pins processing_system7_0/FIXED_IO]
 
   # Create port connections
   connect_bd_net -net hb_0_hbOut [get_bd_ports hbOut] [get_bd_pins hb_0/hbOut]
-  connect_bd_net -net proc_sys_reset_0_peripheral_aresetn [get_bd_pins hb_0/nrstIn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
-  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_ports FCLK_CLK0] [get_bd_pins hb_0/clkIn] [get_bd_pins proc_sys_reset_0/slowest_sync_clk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK]
+  connect_bd_net -net kato_top_0_arduinoIO4Out [get_bd_ports arduinoIO4Out] [get_bd_pins kato_top_0/arduinoIO4Out]
+  connect_bd_net -net kato_top_0_arduinoIO5Out [get_bd_ports arduinoIO5Out] [get_bd_pins kato_top_0/arduinoIO5Out]
+  connect_bd_net -net kato_top_0_arduinoIO6Out [get_bd_ports arduinoIO6Out] [get_bd_pins kato_top_0/arduinoIO6Out]
+  connect_bd_net -net kato_top_0_arduinoIO7Out [get_bd_ports arduinoIO7Out] [get_bd_pins kato_top_0/arduinoIO7Out]
+  connect_bd_net -net kato_top_0_hbLedOut [get_bd_ports hbLedOut] [get_bd_pins kato_top_0/hbLedOut]
+  connect_bd_net -net kato_top_0_pwm0Out [get_bd_ports pwm0Out] [get_bd_pins kato_top_0/pwm0Out]
+  connect_bd_net -net proc_sys_reset_0_peripheral_aresetn [get_bd_pins hb_0/nrstIn] [get_bd_pins kato_top_0/nrstIn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
+  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins hb_0/clkIn] [get_bd_pins kato_top_0/clkIn] [get_bd_pins proc_sys_reset_0/slowest_sync_clk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK]
   connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins proc_sys_reset_0/ext_reset_in] [get_bd_pins processing_system7_0/FCLK_RESET0_N]
+  connect_bd_net -net sw2In_1 [get_bd_ports sw2In] [get_bd_pins kato_top_0/sw2In]
+  connect_bd_net -net sw3In_1 [get_bd_ports sw3In] [get_bd_pins kato_top_0/sw3In]
+  connect_bd_net -net sw4In_1 [get_bd_ports sw4In] [get_bd_pins kato_top_0/sw4In]
+  connect_bd_net -net sw5In_1 [get_bd_ports sw5In] [get_bd_pins kato_top_0/sw5In]
+  connect_bd_net -net xlconstant_0_dout [get_bd_pins kato_top_0/sw1In] [get_bd_pins xlconstant_0/dout]
 
   # Create address segments
 
@@ -926,7 +963,7 @@ proc create_root_design { parentCell } {
   current_bd_instance $oldCurInst
 
   # Create PFM attributes
-  set_property PFM_NAME {vendor:lib:name:1.0} [get_files [current_bd_design].bd]
+  set_property PFM_NAME {xilinx:zybo:name:0.0} [get_files [current_bd_design].bd]
   set_property PFM.AXI_PORT {M_AXI_GP0 {memport "M_AXI_GP" sptag "" memory "" is_range "false"}} [get_bd_cells /processing_system7_0]
   set_property PFM.CLOCK {FCLK_CLK0 {id "0" is_default "true" proc_sys_reset "/proc_sys_reset_0" status "fixed" freq_hz "100000000"}} [get_bd_cells /processing_system7_0]
 

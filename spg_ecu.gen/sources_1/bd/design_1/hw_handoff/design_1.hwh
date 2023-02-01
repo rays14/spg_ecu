@@ -1,9 +1,94 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Jan 10 11:17:27 2023" VIVADOVERSION="2020.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Jan 30 12:19:58 2023" VIVADOVERSION="2020.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo:part0:2.0" DEVICE="7z010" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
+    <PORT DIR="O" NAME="hbOut" SIGIS="undef" SIGNAME="hb_0_hbOut">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hb_0" PORT="hbOut"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="hbLedOut" SIGIS="undef" SIGNAME="kato_top_0_hbLedOut">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="kato_top_0" PORT="hbLedOut"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="pwm0Out" SIGIS="undef" SIGNAME="kato_top_0_pwm0Out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="kato_top_0" PORT="pwm0Out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="arduinoIO7Out" SIGIS="undef" SIGNAME="kato_top_0_arduinoIO7Out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="kato_top_0" PORT="arduinoIO7Out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="arduinoIO6Out" SIGIS="undef" SIGNAME="kato_top_0_arduinoIO6Out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="kato_top_0" PORT="arduinoIO6Out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="arduinoIO5Out" SIGIS="undef" SIGNAME="kato_top_0_arduinoIO5Out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="kato_top_0" PORT="arduinoIO5Out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="arduinoIO4Out" SIGIS="undef" SIGNAME="kato_top_0_arduinoIO4Out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="kato_top_0" PORT="arduinoIO4Out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="sw2In" SIGIS="undef" SIGNAME="External_Ports_sw2In">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="kato_top_0" PORT="sw2In"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="sw3In" SIGIS="undef" SIGNAME="External_Ports_sw3In">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="kato_top_0" PORT="sw3In"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="sw4In" SIGIS="undef" SIGNAME="External_Ports_sw4In">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="kato_top_0" PORT="sw4In"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="sw5In" SIGIS="undef" SIGNAME="External_Ports_sw5In">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="kato_top_0" PORT="sw5In"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="53" NAME="FIXED_IO_mio" RIGHT="0" SIGIS="undef" SIGNAME="processing_system7_0_MIO">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="MIO"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_ddr_vrn" SIGIS="undef" SIGNAME="processing_system7_0_DDR_VRN">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="DDR_VRN"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_ddr_vrp" SIGIS="undef" SIGNAME="processing_system7_0_DDR_VRP">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="DDR_VRP"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_ps_srstb" SIGIS="undef" SIGNAME="processing_system7_0_PS_SRSTB">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="PS_SRSTB"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_ps_clk" SIGIS="undef" SIGNAME="processing_system7_0_PS_CLK">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="PS_CLK"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef" SIGNAME="processing_system7_0_PS_PORB">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="PS_PORB"/>
+      </CONNECTIONS>
+    </PORT>
     <PORT DIR="IO" NAME="DDR_cas_n" SIGIS="undef" SIGNAME="processing_system7_0_DDR_CAS_n">
       <CONNECTIONS>
         <CONNECTION INSTANCE="processing_system7_0" PORT="DDR_CAS_n"/>
@@ -77,46 +162,6 @@
     <PORT DIR="IO" LEFT="3" NAME="DDR_dqs_p" RIGHT="0" SIGIS="undef" SIGNAME="processing_system7_0_DDR_DQS">
       <CONNECTIONS>
         <CONNECTION INSTANCE="processing_system7_0" PORT="DDR_DQS"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="IO" LEFT="53" NAME="FIXED_IO_mio" RIGHT="0" SIGIS="undef" SIGNAME="processing_system7_0_MIO">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="MIO"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="IO" NAME="FIXED_IO_ddr_vrn" SIGIS="undef" SIGNAME="processing_system7_0_DDR_VRN">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="DDR_VRN"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="IO" NAME="FIXED_IO_ddr_vrp" SIGIS="undef" SIGNAME="processing_system7_0_DDR_VRP">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="DDR_VRP"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="IO" NAME="FIXED_IO_ps_srstb" SIGIS="undef" SIGNAME="processing_system7_0_PS_SRSTB">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="PS_SRSTB"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="IO" NAME="FIXED_IO_ps_clk" SIGIS="undef" SIGNAME="processing_system7_0_PS_CLK">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="PS_CLK"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef" SIGNAME="processing_system7_0_PS_PORB">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="PS_PORB"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="hbOut" SIGIS="undef" SIGNAME="hb_0_hbOut">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="hb_0" PORT="hbOut"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT CLKFREQUENCY="100000000" DIR="O" NAME="FCLK_CLK0" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -194,6 +239,82 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/kato_top_0" HWVERSION="1.0" INSTANCE="kato_top_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="kato_top" VLNV="xilinx.com:module_ref:kato_top:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="HBCOUNT" VALUE="50000000"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_kato_top_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clkIn" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="sw1In" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="sw2In" SIGIS="undef" SIGNAME="External_Ports_sw2In">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sw2In"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="sw3In" SIGIS="undef" SIGNAME="External_Ports_sw3In">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sw3In"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="sw4In" SIGIS="undef" SIGNAME="External_Ports_sw4In">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sw4In"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="sw5In" SIGIS="undef" SIGNAME="External_Ports_sw5In">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sw5In"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="nrstIn" POLARITY="ACTIVE_LOW" SIGIS="undef" SIGNAME="proc_sys_reset_0_peripheral_aresetn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="proc_sys_reset_0" PORT="peripheral_aresetn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="pwm0Out" SIGIS="undef" SIGNAME="kato_top_0_pwm0Out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="pwm0Out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="arduinoIO7Out" SIGIS="undef" SIGNAME="kato_top_0_arduinoIO7Out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="arduinoIO7Out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="arduinoIO6Out" SIGIS="undef" SIGNAME="kato_top_0_arduinoIO6Out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="arduinoIO6Out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="arduinoIO5Out" SIGIS="undef" SIGNAME="kato_top_0_arduinoIO5Out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="arduinoIO5Out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="arduinoIO4Out" SIGIS="undef" SIGNAME="kato_top_0_arduinoIO4Out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="arduinoIO4Out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="hbLedOut" SIGIS="undef" SIGNAME="kato_top_0_hbLedOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="hbLedOut"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
     <MODULE COREREVISION="13" FULLNAME="/proc_sys_reset_0" HWVERSION="5.0" INSTANCE="proc_sys_reset_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=proc_sys_reset;v=v5_0;d=pg164-proc-sys-reset.pdf"/>
@@ -234,6 +355,7 @@
         <PORT DIR="O" LEFT="0" NAME="peripheral_aresetn" POLARITY="ACTIVE_LOW" RIGHT="0" SIGIS="rst" SIGNAME="proc_sys_reset_0_peripheral_aresetn">
           <CONNECTIONS>
             <CONNECTION INSTANCE="hb_0" PORT="nrstIn"/>
+            <CONNECTION INSTANCE="kato_top_0" PORT="nrstIn"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -1236,7 +1358,7 @@
             <CONNECTION INSTANCE="hb_0" PORT="clkIn"/>
             <CONNECTION INSTANCE="proc_sys_reset_0" PORT="slowest_sync_clk"/>
             <CONNECTION INSTANCE="processing_system7_0" PORT="M_AXI_GP0_ACLK"/>
-            <CONNECTION INSTANCE="External_Ports" PORT="FCLK_CLK0"/>
+            <CONNECTION INSTANCE="kato_top_0" PORT="clkIn"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="FCLK_RESET0_N" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">
@@ -1483,6 +1605,23 @@
       </BUSINTERFACES>
       <MEMORYMAP/>
       <PERIPHERALS/>
+    </MODULE>
+    <MODULE COREREVISION="7" FULLNAME="/xlconstant_0" HWVERSION="1.1" INSTANCE="xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="kato_top_0" PORT="sw1In"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
     </MODULE>
   </MODULES>
 

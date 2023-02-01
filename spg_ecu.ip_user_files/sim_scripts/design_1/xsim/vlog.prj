@@ -1,6 +1,8 @@
 verilog xil_defaultlib --include "C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" \
 "../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
 "../../../bd/design_1/ip/design_1_hb_0_0/sim/design_1_hb_0_0.v" \
+"../../../bd/design_1/ip/design_1_kato_top_0_2/sim/design_1_kato_top_0_2.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
 "../../../bd/design_1/sim/design_1.v" \
 
 verilog xil_defaultlib "glbl.v"

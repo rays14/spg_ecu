@@ -2574,3 +2574,2096 @@ C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zy
 
 TRACE::2023-01-10.11:31:01::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
 TRACE::2023-01-10.11:31:01::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:10::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:10::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:10::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:13::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:13::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:13::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:13::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened new HwDB with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWReader::Active system found as  spg_ecu_platform
+TRACE::2023-01-30.10:37:15::SCWReader::Handling sysconfig spg_ecu_platform
+TRACE::2023-01-30.10:37:15::SCWDomain::checking for install qemu data   : 
+TRACE::2023-01-30.10:37:15::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-01-30.10:37:15::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-01-30.10:37:15::SCWMssOS::No sw design opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::mss exists loading the mss file  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::Opened the sw design from mss  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::Adding the swdes entry C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-01-30.10:37:15::SCWMssOS::updating the scw layer about changes
+TRACE::2023-01-30.10:37:15::SCWMssOS::Opened the sw design.  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.10:37:15::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS:: library already available in sw design:  xilffs:4.4
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.10:37:15::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-01-30.10:37:15::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.10:37:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.10:37:15::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.10:37:15::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-01-30.10:37:15::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.10:37:15::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWReader::No isolation master present  
+TRACE::2023-01-30.10:37:15::SCWDomain::checking for install qemu data   : 
+TRACE::2023-01-30.10:37:15::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-01-30.10:37:15::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.10:37:15::SCWMssOS::No sw design opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::mss exists loading the mss file  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::Opened the sw design from mss  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::Adding the swdes entry C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-01-30.10:37:15::SCWMssOS::updating the scw layer about changes
+TRACE::2023-01-30.10:37:15::SCWMssOS::Opened the sw design.  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.10:37:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.10:37:15::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.10:37:15::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-01-30.10:37:15::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.10:37:15::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWReader::No isolation master present  
+LOG::2023-01-30.10:37:15::SCWPlatform::Started generating the artifacts platform spg_ecu_platform
+TRACE::2023-01-30.10:37:15::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-01-30.10:37:15::SCWPlatform::Started generating the artifacts for system configuration spg_ecu_platform
+LOG::2023-01-30.10:37:15::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-01-30.10:37:15::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-01-30.10:37:15::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-01-30.10:37:15::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-01-30.10:37:15::SCWSystem::Checking the domain standalone_domain
+LOG::2023-01-30.10:37:15::SCWSystem::Not a boot domain 
+LOG::2023-01-30.10:37:15::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-01-30.10:37:15::SCWDomain::Generating domain artifcats
+TRACE::2023-01-30.10:37:15::SCWMssOS::Generating standalone artifcats
+TRACE::2023-01-30.10:37:15::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/qemu/
+TRACE::2023-01-30.10:37:15::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/qemu/
+TRACE::2023-01-30.10:37:15::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:15::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:15::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.10:37:15::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::Completed writing the mss file at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-01-30.10:37:15::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:15::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-01-30.10:37:15::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-01-30.10:37:15::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-01-30.10:37:15::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-01-30.10:37:15::SCWMssOS::Copying to export directory.
+TRACE::2023-01-30.10:37:16::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-01-30.10:37:16::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-01-30.10:37:16::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-01-30.10:37:16::SCWSystem::Completed Processing the sysconfig spg_ecu_platform
+LOG::2023-01-30.10:37:16::SCWPlatform::Completed generating the artifacts for system configuration spg_ecu_platform
+TRACE::2023-01-30.10:37:16::SCWPlatform::Started preparing the platform 
+TRACE::2023-01-30.10:37:16::SCWSystem::Writing the bif file for system config spg_ecu_platform
+TRACE::2023-01-30.10:37:16::SCWSystem::dir created 
+TRACE::2023-01-30.10:37:16::SCWSystem::Writing the bif 
+TRACE::2023-01-30.10:37:16::SCWPlatform::Started writing the spfm file 
+TRACE::2023-01-30.10:37:16::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-01-30.10:37:16::SCWPlatform::Completed generating the platform
+TRACE::2023-01-30.10:37:16::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:16::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.10:37:16::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.10:37:16::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.10:37:16::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:16::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.10:37:16::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.10:37:16::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.10:37:16::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:16::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:16::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:16::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.10:37:16::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.10:37:16::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:16::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:16::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:16::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.10:37:16::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:16::SCWWriter::formatted JSON is {
+	"platformName":	"spg_ecu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"spg_ecu_platform",
+	"platHandOff":	"C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"spg_ecu_platform",
+	"systems":	[{
+			"systemName":	"spg_ecu_platform",
+			"systemDesc":	"spg_ecu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"spg_ecu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fdd0356f07664805a350ee1e020b34d6",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"e610a784c685c94b391defde031d1617",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-01-30.10:37:16::SCWPlatform::updated the xpfm file.
+TRACE::2023-01-30.10:37:16::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.10:37:16::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.10:37:16::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.10:37:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-01-30.10:37:16::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-01-30.10:37:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.10:37:16::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.10:37:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.10:37:16::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:50::SCWPlatform::Clearing the existing platform
+TRACE::2023-01-30.11:00:50::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-01-30.11:00:50::SCWBDomain::clearing the fsbl build
+TRACE::2023-01-30.11:00:50::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:50::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:50::SCWSystem::Clearing the domains completed.
+TRACE::2023-01-30.11:00:50::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-01-30.11:00:50::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:50::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:50::SCWPlatform:: Platform location is C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:50::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:50::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:50::SCWPlatform::Removing the HwDB with name C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:50::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:50::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:50::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:50::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:50::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:50::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:50::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWReader::Active system found as  spg_ecu_platform
+TRACE::2023-01-30.11:00:52::SCWReader::Handling sysconfig spg_ecu_platform
+TRACE::2023-01-30.11:00:52::SCWDomain::checking for install qemu data   : 
+TRACE::2023-01-30.11:00:52::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-01-30.11:00:52::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:52::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:52::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-01-30.11:00:52::SCWMssOS::No sw design opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::mss exists loading the mss file  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::Opened the sw design from mss  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::Adding the swdes entry C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-01-30.11:00:52::SCWMssOS::updating the scw layer about changes
+TRACE::2023-01-30.11:00:52::SCWMssOS::Opened the sw design.  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:52::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:00:52::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS:: library already available in sw design:  xilffs:4.4
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:52::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:00:52::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-01-30.11:00:52::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.11:00:52::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.11:00:52::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.11:00:52::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-01-30.11:00:52::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:52::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:00:52::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWReader::No isolation master present  
+TRACE::2023-01-30.11:00:52::SCWDomain::checking for install qemu data   : 
+TRACE::2023-01-30.11:00:52::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-01-30.11:00:52::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:52::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:00:52::SCWMssOS::No sw design opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::mss exists loading the mss file  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::Opened the sw design from mss  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::Adding the swdes entry C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-01-30.11:00:52::SCWMssOS::updating the scw layer about changes
+TRACE::2023-01-30.11:00:52::SCWMssOS::Opened the sw design.  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.11:00:52::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.11:00:52::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.11:00:52::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-01-30.11:00:52::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:52::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:00:52::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:52::SCWReader::No isolation master present  
+TRACE::2023-01-30.11:00:56::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:56::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:56::SCWPlatform:: Platform location is C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa
+TRACE::2023-01-30.11:00:56::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:56::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:58::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2023-01-30.11:00:58::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:58::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:58::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:00:58::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:58::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:58::SCWPlatform::update - Opened existing hwdb design_1_wrapper_2
+TRACE::2023-01-30.11:00:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:58::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2023-01-30.11:00:58::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:58::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-01-30.11:00:58::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-01-30.11:00:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:58::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:00:58::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:58::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:58::SCWPlatform::update - Opened existing hwdb design_1_wrapper_2
+TRACE::2023-01-30.11:00:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:00:58::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.11:00:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.11:00:58::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.11:00:58::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2023-01-30.11:00:58::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:00:58::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.11:00:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.11:00:58::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.11:00:58::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2023-01-30.11:00:58::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:00:58::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:00:58::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:00:58::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-01-30.11:01:01::SCWPlatform::Opened new HwDB with name design_1_wrapper_3
+TRACE::2023-01-30.11:01:01::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:01:01::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-01-30.11:01:01::SCWMssOS::Writing the mss file completed C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:01:01::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.11:01:01::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:01:01::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-01-30.11:01:01::SCWMssOS::Writing the mss file completed C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:01:01::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.11:01:01::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:01::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:01::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:01::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:01:01::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:01::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:01:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-01-30.11:01:01::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-01-30.11:01:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:01:01::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:01:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:01:01::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:01:01::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:01::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:01::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:01::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:01:01::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:01::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:01:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-01-30.11:01:01::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-01-30.11:01:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:01:01::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:01:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:01:01::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:01:01::SCWWriter::formatted JSON is {
+	"platformName":	"spg_ecu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"spg_ecu_platform",
+	"platHandOff":	"C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"spg_ecu_platform",
+	"systems":	[{
+			"systemName":	"spg_ecu_platform",
+			"systemDesc":	"spg_ecu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"spg_ecu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fdd0356f07664805a350ee1e020b34d6",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"e610a784c685c94b391defde031d1617",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-01-30.11:01:13::SCWPlatform::Started generating the artifacts platform spg_ecu_platform
+TRACE::2023-01-30.11:01:13::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-01-30.11:01:13::SCWPlatform::Started generating the artifacts for system configuration spg_ecu_platform
+LOG::2023-01-30.11:01:13::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-01-30.11:01:13::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-01-30.11:01:13::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-01-30.11:01:13::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-01-30.11:01:13::SCWSystem::Checking the domain standalone_domain
+LOG::2023-01-30.11:01:13::SCWSystem::Not a boot domain 
+LOG::2023-01-30.11:01:13::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-01-30.11:01:13::SCWDomain::Generating domain artifcats
+TRACE::2023-01-30.11:01:13::SCWMssOS::Generating standalone artifcats
+TRACE::2023-01-30.11:01:13::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/qemu/
+TRACE::2023-01-30.11:01:13::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/qemu/
+TRACE::2023-01-30.11:01:13::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-01-30.11:01:13::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:01:13::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:01:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-01-30.11:01:13::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-01-30.11:01:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:01:13::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:01:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:01:13::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:01:13::SCWMssOS::Completed writing the mss file at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-01-30.11:01:13::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:01:13::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-01-30.11:01:13::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-01-30.11:01:13::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-01-30.11:01:13::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-01-30.11:01:13::SCWMssOS::Copying to export directory.
+TRACE::2023-01-30.11:01:13::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-01-30.11:01:13::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-01-30.11:01:13::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-01-30.11:01:13::SCWSystem::Completed Processing the sysconfig spg_ecu_platform
+LOG::2023-01-30.11:01:13::SCWPlatform::Completed generating the artifacts for system configuration spg_ecu_platform
+TRACE::2023-01-30.11:01:13::SCWPlatform::Started preparing the platform 
+TRACE::2023-01-30.11:01:13::SCWSystem::Writing the bif file for system config spg_ecu_platform
+TRACE::2023-01-30.11:01:13::SCWSystem::dir created 
+TRACE::2023-01-30.11:01:13::SCWSystem::Writing the bif 
+TRACE::2023-01-30.11:01:13::SCWPlatform::Started writing the spfm file 
+TRACE::2023-01-30.11:01:13::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-01-30.11:01:13::SCWPlatform::Completed generating the platform
+TRACE::2023-01-30.11:01:13::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:01:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.11:01:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.11:01:13::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.11:01:13::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:01:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.11:01:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.11:01:13::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.11:01:13::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:01:13::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:01:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-01-30.11:01:13::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-01-30.11:01:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:01:13::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:01:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:01:13::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.11:01:13::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:01:13::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:01:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-01-30.11:01:13::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-01-30.11:01:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:01:13::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:01:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:01:13::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:01:13::SCWWriter::formatted JSON is {
+	"platformName":	"spg_ecu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"spg_ecu_platform",
+	"platHandOff":	"C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"spg_ecu_platform",
+	"systems":	[{
+			"systemName":	"spg_ecu_platform",
+			"systemDesc":	"spg_ecu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"spg_ecu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fdd0356f07664805a350ee1e020b34d6",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"e610a784c685c94b391defde031d1617",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-01-30.11:01:13::SCWPlatform::updated the xpfm file.
+TRACE::2023-01-30.11:01:13::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.11:01:13::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.11:01:13::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.11:01:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-01-30.11:01:13::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-01-30.11:01:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.11:01:13::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.11:01:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.11:01:13::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:45::SCWPlatform::Clearing the existing platform
+TRACE::2023-01-30.12:01:45::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-01-30.12:01:45::SCWBDomain::clearing the fsbl build
+TRACE::2023-01-30.12:01:45::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:45::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:45::SCWSystem::Clearing the domains completed.
+TRACE::2023-01-30.12:01:45::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-01-30.12:01:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:45::SCWPlatform:: Platform location is C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:45::SCWPlatform::Removing the HwDB with name C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:45::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened new HwDB with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWReader::Active system found as  spg_ecu_platform
+TRACE::2023-01-30.12:01:48::SCWReader::Handling sysconfig spg_ecu_platform
+TRACE::2023-01-30.12:01:48::SCWDomain::checking for install qemu data   : 
+TRACE::2023-01-30.12:01:48::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-01-30.12:01:48::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:48::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:48::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-01-30.12:01:48::SCWMssOS::No sw design opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::mss exists loading the mss file  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::Opened the sw design from mss  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::Adding the swdes entry C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-01-30.12:01:48::SCWMssOS::updating the scw layer about changes
+TRACE::2023-01-30.12:01:48::SCWMssOS::Opened the sw design.  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:48::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:01:48::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS:: library already available in sw design:  xilffs:4.4
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:48::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:01:48::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-01-30.12:01:48::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:01:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:01:48::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:01:48::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-01-30.12:01:48::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:48::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:01:48::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWReader::No isolation master present  
+TRACE::2023-01-30.12:01:48::SCWDomain::checking for install qemu data   : 
+TRACE::2023-01-30.12:01:48::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-01-30.12:01:48::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:48::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:01:48::SCWMssOS::No sw design opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::mss exists loading the mss file  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::Opened the sw design from mss  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::Adding the swdes entry C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-01-30.12:01:48::SCWMssOS::updating the scw layer about changes
+TRACE::2023-01-30.12:01:48::SCWMssOS::Opened the sw design.  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:01:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:01:48::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:01:48::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-01-30.12:01:48::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:48::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:01:48::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:48::SCWReader::No isolation master present  
+TRACE::2023-01-30.12:01:52::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:52::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:52::SCWPlatform:: Platform location is C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa
+TRACE::2023-01-30.12:01:52::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:52::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:54::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2023-01-30.12:01:54::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:54::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:54::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:54::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:54::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:01:54::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:54::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:54::SCWPlatform::update - Opened existing hwdb design_1_wrapper_6
+TRACE::2023-01-30.12:01:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:54::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2023-01-30.12:01:54::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:54::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:54::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-01-30.12:01:54::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-01-30.12:01:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:54::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:54::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:01:54::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:54::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:54::SCWPlatform::update - Opened existing hwdb design_1_wrapper_6
+TRACE::2023-01-30.12:01:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:54::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:01:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:01:54::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:01:54::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2023-01-30.12:01:54::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:54::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:01:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:01:54::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:01:54::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2023-01-30.12:01:54::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:54::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:54::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:54::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-01-30.12:01:57::SCWPlatform::Opened new HwDB with name design_1_wrapper_7
+TRACE::2023-01-30.12:01:57::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:57::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-01-30.12:01:57::SCWMssOS::Writing the mss file completed C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:57::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:01:57::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:57::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-01-30.12:01:57::SCWMssOS::Writing the mss file completed C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:57::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:01:57::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:57::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:57::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:57::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:57::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:57::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2023-01-30.12:01:57::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2023-01-30.12:01:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:57::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:01:57::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:01:57::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:57::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:57::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:57::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:01:57::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:01:57::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:01:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2023-01-30.12:01:57::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2023-01-30.12:01:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:01:57::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:01:57::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:01:57::SCWWriter::formatted JSON is {
+	"platformName":	"spg_ecu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"spg_ecu_platform",
+	"platHandOff":	"C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"spg_ecu_platform",
+	"systems":	[{
+			"systemName":	"spg_ecu_platform",
+			"systemDesc":	"spg_ecu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"spg_ecu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fdd0356f07664805a350ee1e020b34d6",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"e610a784c685c94b391defde031d1617",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-01-30.12:02:14::SCWPlatform::Started generating the artifacts platform spg_ecu_platform
+TRACE::2023-01-30.12:02:14::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-01-30.12:02:14::SCWPlatform::Started generating the artifacts for system configuration spg_ecu_platform
+LOG::2023-01-30.12:02:14::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-01-30.12:02:14::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-01-30.12:02:14::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-01-30.12:02:14::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-01-30.12:02:14::SCWSystem::Checking the domain standalone_domain
+LOG::2023-01-30.12:02:14::SCWSystem::Not a boot domain 
+LOG::2023-01-30.12:02:14::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-01-30.12:02:14::SCWDomain::Generating domain artifcats
+TRACE::2023-01-30.12:02:14::SCWMssOS::Generating standalone artifcats
+TRACE::2023-01-30.12:02:14::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/qemu/
+TRACE::2023-01-30.12:02:14::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/qemu/
+TRACE::2023-01-30.12:02:14::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-01-30.12:02:14::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:02:14::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:02:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2023-01-30.12:02:14::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2023-01-30.12:02:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:02:14::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:02:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:02:14::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:02:14::SCWMssOS::Completed writing the mss file at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-01-30.12:02:14::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:02:14::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-01-30.12:02:14::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-01-30.12:02:14::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-01-30.12:02:14::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-01-30.12:02:14::SCWMssOS::Copying to export directory.
+TRACE::2023-01-30.12:02:14::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-01-30.12:02:14::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-01-30.12:02:14::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-01-30.12:02:14::SCWSystem::Completed Processing the sysconfig spg_ecu_platform
+LOG::2023-01-30.12:02:14::SCWPlatform::Completed generating the artifacts for system configuration spg_ecu_platform
+TRACE::2023-01-30.12:02:14::SCWPlatform::Started preparing the platform 
+TRACE::2023-01-30.12:02:14::SCWSystem::Writing the bif file for system config spg_ecu_platform
+TRACE::2023-01-30.12:02:14::SCWSystem::dir created 
+TRACE::2023-01-30.12:02:14::SCWSystem::Writing the bif 
+TRACE::2023-01-30.12:02:14::SCWPlatform::Started writing the spfm file 
+TRACE::2023-01-30.12:02:14::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-01-30.12:02:14::SCWPlatform::Completed generating the platform
+TRACE::2023-01-30.12:02:14::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:02:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:02:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:02:14::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:02:14::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:02:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:02:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:02:14::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:02:14::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:02:14::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:02:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2023-01-30.12:02:14::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2023-01-30.12:02:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:02:14::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:02:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:02:14::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:02:14::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:02:14::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:02:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2023-01-30.12:02:14::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2023-01-30.12:02:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:02:14::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:02:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:02:14::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:02:14::SCWWriter::formatted JSON is {
+	"platformName":	"spg_ecu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"spg_ecu_platform",
+	"platHandOff":	"C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"spg_ecu_platform",
+	"systems":	[{
+			"systemName":	"spg_ecu_platform",
+			"systemDesc":	"spg_ecu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"spg_ecu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fdd0356f07664805a350ee1e020b34d6",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"e610a784c685c94b391defde031d1617",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-01-30.12:02:14::SCWPlatform::updated the xpfm file.
+TRACE::2023-01-30.12:02:14::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:02:14::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:02:14::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:02:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2023-01-30.12:02:14::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2023-01-30.12:02:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:02:14::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:02:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:02:14::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:43::SCWPlatform::Clearing the existing platform
+TRACE::2023-01-30.12:28:43::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-01-30.12:28:43::SCWBDomain::clearing the fsbl build
+TRACE::2023-01-30.12:28:43::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:43::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:43::SCWSystem::Clearing the domains completed.
+TRACE::2023-01-30.12:28:43::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-01-30.12:28:43::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:43::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:43::SCWPlatform:: Platform location is C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:43::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:43::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:43::SCWPlatform::Removing the HwDB with name C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:43::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:43::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:43::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:43::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:43::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:43::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:43::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened new HwDB with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWReader::Active system found as  spg_ecu_platform
+TRACE::2023-01-30.12:28:45::SCWReader::Handling sysconfig spg_ecu_platform
+TRACE::2023-01-30.12:28:45::SCWDomain::checking for install qemu data   : 
+TRACE::2023-01-30.12:28:45::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-01-30.12:28:45::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:45::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:45::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-01-30.12:28:45::SCWMssOS::No sw design opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::mss exists loading the mss file  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::Opened the sw design from mss  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::Adding the swdes entry C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-01-30.12:28:45::SCWMssOS::updating the scw layer about changes
+TRACE::2023-01-30.12:28:45::SCWMssOS::Opened the sw design.  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:45::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:28:45::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS:: library already available in sw design:  xilffs:4.4
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:45::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:28:45::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-01-30.12:28:45::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:28:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:28:45::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:28:45::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-01-30.12:28:45::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:45::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:28:45::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWReader::No isolation master present  
+TRACE::2023-01-30.12:28:45::SCWDomain::checking for install qemu data   : 
+TRACE::2023-01-30.12:28:45::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-01-30.12:28:45::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:45::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:28:45::SCWMssOS::No sw design opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::mss exists loading the mss file  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::Opened the sw design from mss  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::Adding the swdes entry C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-01-30.12:28:45::SCWMssOS::updating the scw layer about changes
+TRACE::2023-01-30.12:28:45::SCWMssOS::Opened the sw design.  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:28:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:28:45::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:28:45::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-01-30.12:28:45::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:45::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:45::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:28:45::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:45::SCWReader::No isolation master present  
+TRACE::2023-01-30.12:28:48::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:48::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:48::SCWPlatform:: Platform location is C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa
+TRACE::2023-01-30.12:28:48::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:48::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:49::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2023-01-30.12:28:49::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:49::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:49::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:49::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:49::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:28:49::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:49::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:49::SCWPlatform::update - Opened existing hwdb design_1_wrapper_10
+TRACE::2023-01-30.12:28:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:49::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2023-01-30.12:28:49::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:49::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:49::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2023-01-30.12:28:49::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2023-01-30.12:28:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:49::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:28:49::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:49::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/tempdsa/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:49::SCWPlatform::update - Opened existing hwdb design_1_wrapper_10
+TRACE::2023-01-30.12:28:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:49::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:49::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:28:49::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:28:49::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:28:49::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2023-01-30.12:28:49::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:49::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:49::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:28:49::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:28:49::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:28:49::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2023-01-30.12:28:49::SCWMssOS::Removing the swdes entry for  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:49::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:49::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:49::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-01-30.12:28:51::SCWPlatform::Opened new HwDB with name design_1_wrapper_11
+TRACE::2023-01-30.12:28:51::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:51::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-01-30.12:28:51::SCWMssOS::Writing the mss file completed C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:51::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:28:51::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:51::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-01-30.12:28:51::SCWMssOS::Writing the mss file completed C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:51::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:28:51::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:51::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:51::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:51::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:51::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:51::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2023-01-30.12:28:51::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2023-01-30.12:28:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:51::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:28:51::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:28:51::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:51::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:51::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:51::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:28:51::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:28:51::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:28:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2023-01-30.12:28:51::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2023-01-30.12:28:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:28:51::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:28:51::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:28:51::SCWWriter::formatted JSON is {
+	"platformName":	"spg_ecu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"spg_ecu_platform",
+	"platHandOff":	"C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"spg_ecu_platform",
+	"systems":	[{
+			"systemName":	"spg_ecu_platform",
+			"systemDesc":	"spg_ecu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"spg_ecu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fdd0356f07664805a350ee1e020b34d6",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"e610a784c685c94b391defde031d1617",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-01-30.12:29:10::SCWPlatform::Started generating the artifacts platform spg_ecu_platform
+TRACE::2023-01-30.12:29:10::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-01-30.12:29:10::SCWPlatform::Started generating the artifacts for system configuration spg_ecu_platform
+LOG::2023-01-30.12:29:10::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-01-30.12:29:10::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-01-30.12:29:10::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-01-30.12:29:10::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-01-30.12:29:10::SCWSystem::Checking the domain standalone_domain
+LOG::2023-01-30.12:29:10::SCWSystem::Not a boot domain 
+LOG::2023-01-30.12:29:10::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-01-30.12:29:10::SCWDomain::Generating domain artifcats
+TRACE::2023-01-30.12:29:10::SCWMssOS::Generating standalone artifcats
+TRACE::2023-01-30.12:29:10::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/qemu/
+TRACE::2023-01-30.12:29:10::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/qemu/
+TRACE::2023-01-30.12:29:10::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-01-30.12:29:10::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:10::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:10::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:10::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:29:10::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:10::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:29:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2023-01-30.12:29:10::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2023-01-30.12:29:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:29:10::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:29:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:29:10::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:29:10::SCWMssOS::Completed writing the mss file at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-01-30.12:29:10::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:29:10::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-01-30.12:29:10::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-01-30.12:29:10::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-01-30.12:29:10::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-01-30.12:29:10::SCWMssOS::Copying to export directory.
+TRACE::2023-01-30.12:29:11::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-01-30.12:29:11::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-01-30.12:29:11::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-01-30.12:29:11::SCWSystem::Completed Processing the sysconfig spg_ecu_platform
+LOG::2023-01-30.12:29:11::SCWPlatform::Completed generating the artifacts for system configuration spg_ecu_platform
+TRACE::2023-01-30.12:29:11::SCWPlatform::Started preparing the platform 
+TRACE::2023-01-30.12:29:11::SCWSystem::Writing the bif file for system config spg_ecu_platform
+TRACE::2023-01-30.12:29:11::SCWSystem::dir created 
+TRACE::2023-01-30.12:29:11::SCWSystem::Writing the bif 
+TRACE::2023-01-30.12:29:11::SCWPlatform::Started writing the spfm file 
+TRACE::2023-01-30.12:29:11::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-01-30.12:29:11::SCWPlatform::Completed generating the platform
+TRACE::2023-01-30.12:29:11::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:29:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:29:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:29:11::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:29:11::SCWMssOS::Saving the mss changes C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:29:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-30.12:29:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-30.12:29:11::SCWMssOS::Commit changes completed.
+TRACE::2023-01-30.12:29:11::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:29:11::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:29:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2023-01-30.12:29:11::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2023-01-30.12:29:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:29:11::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:29:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:29:11::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-01-30.12:29:11::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:29:11::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:29:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2023-01-30.12:29:11::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2023-01-30.12:29:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:29:11::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:29:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:29:11::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:29:11::SCWWriter::formatted JSON is {
+	"platformName":	"spg_ecu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"spg_ecu_platform",
+	"platHandOff":	"C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"spg_ecu_platform",
+	"systems":	[{
+			"systemName":	"spg_ecu_platform",
+			"systemDesc":	"spg_ecu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"spg_ecu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fdd0356f07664805a350ee1e020b34d6",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"e610a784c685c94b391defde031d1617",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-01-30.12:29:11::SCWPlatform::updated the xpfm file.
+TRACE::2023-01-30.12:29:11::SCWPlatform::Trying to open the hw design at C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform::DSA given C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform::DSA absoulate path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform::DSA directory C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw
+TRACE::2023-01-30.12:29:11::SCWPlatform:: Platform Path C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-01-30.12:29:11::SCWPlatform:: Unique name xilinx:zybo:name:0.0
+TRACE::2023-01-30.12:29:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2023-01-30.12:29:11::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2023-01-30.12:29:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-30.12:29:11::SCWMssOS::Checking the sw design at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-30.12:29:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-01-30.12:29:11::SCWMssOS::Sw design exists and opened at  C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss

@@ -7,3 +7,21 @@ timestamp=[2023-01-10 11:27:34], mode=APP_CREATION, duration=0:00:05.030, durati
 timestamp=[2023-01-10 11:27:44], mode=BUILD, duration=0:00:00.712, duration_ms=712, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
 timestamp=[2023-01-10 11:27:44], mode=BUILD, duration=0:00:00.095, duration_ms=95, data={name=spg_ecu_bringup_system, configuration=Emulation-SW, clean_build=false}
 timestamp=[2023-01-10 11:29:05], mode=MISC, duration=0:00:03.013, duration_ms=3013, data={name=spg_ecu_bringup_system, type=bif_creation}
+timestamp=[2023-01-30 10:33:56], mode=WORKBENCH_START, duration=0:00:23.306, duration_ms=23306, data={}
+timestamp=[2023-01-30 10:33:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.281, duration_ms=281, data={}
+timestamp=[2023-01-30 10:33:58], mode=WORKBENCH_UI_INIT, duration=0:00:02.570, duration_ms=2570, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,spg_ecu_bringup,spg_ecu_bringup_system,spg_ecu_platform}
+timestamp=[2023-01-30 10:37:16], mode=PLATFORM_GENERATION, duration=0:00:08.601, duration_ms=8601, data={name=spg_ecu_platform}
+timestamp=[2023-01-30 10:37:23], mode=BUILD, duration=0:00:02.727, duration_ms=2727, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-01-30 10:37:23], mode=BUILD, duration=0:00:00.191, duration_ms=191, data={name=spg_ecu_bringup_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2023-01-30 11:01:13], mode=PLATFORM_GENERATION, duration=0:00:02.814, duration_ms=2814, data={name=spg_ecu_platform}
+timestamp=[2023-01-30 11:01:16], mode=BUILD, duration=0:00:00.337, duration_ms=337, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-01-30 11:01:34], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=spg_ecu_bringup, configuration=Debug, clean_build=true}
+timestamp=[2023-01-30 11:01:37], mode=BUILD, duration=0:00:01.184, duration_ms=1184, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-01-30 12:02:15], mode=PLATFORM_GENERATION, duration=0:00:02.829, duration_ms=2829, data={name=spg_ecu_platform}
+timestamp=[2023-01-30 12:02:18], mode=BUILD, duration=0:00:00.941, duration_ms=941, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-01-30 12:03:05], mode=BUILD, duration=0:00:00.895, duration_ms=895, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-01-30 12:29:11], mode=PLATFORM_GENERATION, duration=0:00:02.657, duration_ms=2657, data={name=spg_ecu_platform}
+timestamp=[2023-01-30 12:29:13], mode=BUILD, duration=0:00:00.247, duration_ms=247, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-01-30 12:38:39], mode=BUILD, duration=0:00:00.963, duration_ms=963, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-01-30 12:40:54], mode=BUILD, duration=0:00:00.554, duration_ms=554, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-01-30 12:41:29], mode=BUILD, duration=0:00:00.554, duration_ms=554, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
