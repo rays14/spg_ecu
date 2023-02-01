@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jan 27 12:46:48 2023
+# Process ID: 14804
+# Current directory: C:/Users/SidRay/Documents/topper/projs/git/spg_ecu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20204 C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu.xpr
+# Log file: C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/vivado.log
+# Journal file: C:/Users/SidRay/Documents/topper/projs/git/spg_ecu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.xprupdate_compile_order -fileset sources_1
+open_bd_design {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.srcs/sources_1/bd/design_1/design_1.bd}
+import_files -norecurse {C:/Users/SidRay/Documents/topper/projs/git/altera/kato/kato_top.v C:/Users/SidRay/Documents/topper/projs/git/altera/kato/my_ver_lib.v}
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference kato_top kato_top_0
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins kato_top_0/clkIn]
+open_bd_design {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_cells kato_top_0]
+create_bd_cell -type module -reference kato_top kato_top_0
+delete_bd_objs [get_bd_cells kato_top_0]
+save_bd_design
+create_bd_cell -type module -reference kato_top kato_top_0
+set_property location {1 15 -362} [get_bd_cells kato_top_0]
+update_module_reference design_1_kato_top_0_2
+update_compile_order -fileset sources_1
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins kato_top_0/clkIn]
+connect_bd_net [get_bd_pins kato_top_0/nrstIn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
+save_bd_design
+startgroup
+create_bd_port -dir O hbLedOut
+connect_bd_net [get_bd_pins /kato_top_0/hbLedOut] [get_bd_ports hbLedOut]
+endgroup
+startgroup
+create_bd_port -dir O pwm0Out
+connect_bd_net [get_bd_pins /kato_top_0/pwm0Out] [get_bd_ports pwm0Out]
+endgroup
+startgroup
+create_bd_port -dir O arduinoIO7Out
+connect_bd_net [get_bd_pins /kato_top_0/arduinoIO7Out] [get_bd_ports arduinoIO7Out]
+endgroup
+startgroup
+create_bd_port -dir O arduinoIO6Out
+connect_bd_net [get_bd_pins /kato_top_0/arduinoIO6Out] [get_bd_ports arduinoIO6Out]
+endgroup
+startgroup
+create_bd_port -dir O arduinoIO5Out
+connect_bd_net [get_bd_pins /kato_top_0/arduinoIO5Out] [get_bd_ports arduinoIO5Out]
+endgroup
+startgroup
+create_bd_port -dir O arduinoIO4Out
+connect_bd_net [get_bd_pins /kato_top_0/arduinoIO4Out] [get_bd_ports arduinoIO4Out]
+endgroup
+startgroup
+create_bd_port -dir I sw1In
+connect_bd_net [get_bd_pins /kato_top_0/sw1In] [get_bd_ports sw1In]
+endgroup
+startgroup
+create_bd_port -dir I sw2In
+connect_bd_net [get_bd_pins /kato_top_0/sw2In] [get_bd_ports sw2In]
+endgroup
+startgroup
+create_bd_port -dir I sw3In
+connect_bd_net [get_bd_pins /kato_top_0/sw3In] [get_bd_ports sw3In]
+endgroup
+startgroup
+create_bd_port -dir I sw4In
+connect_bd_net [get_bd_pins /kato_top_0/sw4In] [get_bd_ports sw4In]
+endgroup
+startgroup
+create_bd_port -dir I sw5In
+connect_bd_net [get_bd_pins /kato_top_0/sw5In] [get_bd_ports sw5In]
+endgroup
+save_bd_design
+delete_bd_objs [get_bd_ports FCLK_CLK0]
+save_bd_design
