@@ -1,8 +1,13 @@
 verilog xil_defaultlib --include "C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" \
 "../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
 "../../../bd/design_1/ip/design_1_hb_0_0/sim/design_1_hb_0_0.v" \
-"../../../bd/design_1/ip/design_1_kato_top_0_2/sim/design_1_kato_top_0_2.v" \
 "../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+"../../../bd/design_1/ipshared/03e2/hdl/ip_m_pwm_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/03e2/src/kato_top.v" \
+"../../../bd/design_1/ipshared/03e2/src/my_ver_lib.v" \
+"../../../bd/design_1/ipshared/03e2/hdl/ip_m_pwm_v1_0.v" \
+"../../../bd/design_1/ip/design_1_ip_m_pwm_0_0/sim/design_1_ip_m_pwm_0_0.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
 "../../../bd/design_1/sim/design_1.v" \
 
 verilog xil_defaultlib "glbl.v"

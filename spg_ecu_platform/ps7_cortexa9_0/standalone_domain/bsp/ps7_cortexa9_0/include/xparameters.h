@@ -239,6 +239,17 @@
 
 /******************************************************************/
 
+/* Definitions for driver IP_M_PWM */
+#define XPAR_IP_M_PWM_NUM_INSTANCES 1
+
+/* Definitions for peripheral IP_M_PWM_0 */
+#define XPAR_IP_M_PWM_0_DEVICE_ID 0
+#define XPAR_IP_M_PWM_0_S00_AXI_BASEADDR 0x43C00000
+#define XPAR_IP_M_PWM_0_S00_AXI_HIGHADDR 0x43C003FF
+
+
+/******************************************************************/
+
 /* Definitions for driver QSPIPS */
 #define XPAR_XQSPIPS_NUM_INSTANCES 1
 

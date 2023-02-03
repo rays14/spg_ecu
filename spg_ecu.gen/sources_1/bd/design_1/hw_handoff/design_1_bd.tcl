@@ -40,7 +40,7 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 
 # The design that will be created by this Tcl script contains the following 
 # module references:
-# hb, kato_top
+# hb
 
 # Please add the sources of those modules before sourcing this Tcl script.
 
@@ -192,17 +192,9 @@ proc create_root_design { parentCell } {
      return 1
    }
   
-  # Create instance: kato_top_0, and set properties
-  set block_name kato_top
-  set block_cell_name kato_top_0
-  if { [catch {set kato_top_0 [create_bd_cell -type module -reference $block_name $block_cell_name] } errmsg] } {
-     catch {common::send_gid_msg -ssname BD::TCL -id 2095 -severity "ERROR" "Unable to add referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
-     return 1
-   } elseif { $kato_top_0 eq "" } {
-     catch {common::send_gid_msg -ssname BD::TCL -id 2096 -severity "ERROR" "Unable to referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
-     return 1
-   }
-  
+  # Create instance: ip_m_pwm_0, and set properties
+  set ip_m_pwm_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:ip_m_pwm:1.0 ip_m_pwm_0 ]
+
   # Create instance: proc_sys_reset_0, and set properties
   set proc_sys_reset_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 proc_sys_reset_0 ]
 
@@ -929,6 +921,12 @@ proc create_root_design { parentCell } {
    CONFIG.PCW_WDT_PERIPHERAL_FREQMHZ {133.333333} \
  ] $processing_system7_0
 
+  # Create instance: ps7_0_axi_periph, and set properties
+  set ps7_0_axi_periph [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 ps7_0_axi_periph ]
+  set_property -dict [ list \
+   CONFIG.NUM_MI {1} \
+ ] $ps7_0_axi_periph
+
   # Create instance: xlconstant_0, and set properties
   set xlconstant_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0 ]
   set_property -dict [ list \
@@ -938,25 +936,28 @@ proc create_root_design { parentCell } {
   # Create interface connections
   connect_bd_intf_net -intf_net processing_system7_0_DDR [get_bd_intf_ports DDR] [get_bd_intf_pins processing_system7_0/DDR]
   connect_bd_intf_net -intf_net processing_system7_0_FIXED_IO [get_bd_intf_ports FIXED_IO] [get_bd_intf_pins processing_system7_0/FIXED_IO]
+  connect_bd_intf_net -intf_net processing_system7_0_M_AXI_GP0 [get_bd_intf_pins processing_system7_0/M_AXI_GP0] [get_bd_intf_pins ps7_0_axi_periph/S00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M00_AXI [get_bd_intf_pins ip_m_pwm_0/S00_AXI] [get_bd_intf_pins ps7_0_axi_periph/M00_AXI]
 
   # Create port connections
   connect_bd_net -net hb_0_hbOut [get_bd_ports hbOut] [get_bd_pins hb_0/hbOut]
-  connect_bd_net -net kato_top_0_arduinoIO4Out [get_bd_ports arduinoIO4Out] [get_bd_pins kato_top_0/arduinoIO4Out]
-  connect_bd_net -net kato_top_0_arduinoIO5Out [get_bd_ports arduinoIO5Out] [get_bd_pins kato_top_0/arduinoIO5Out]
-  connect_bd_net -net kato_top_0_arduinoIO6Out [get_bd_ports arduinoIO6Out] [get_bd_pins kato_top_0/arduinoIO6Out]
-  connect_bd_net -net kato_top_0_arduinoIO7Out [get_bd_ports arduinoIO7Out] [get_bd_pins kato_top_0/arduinoIO7Out]
-  connect_bd_net -net kato_top_0_hbLedOut [get_bd_ports hbLedOut] [get_bd_pins kato_top_0/hbLedOut]
-  connect_bd_net -net kato_top_0_pwm0Out [get_bd_ports pwm0Out] [get_bd_pins kato_top_0/pwm0Out]
-  connect_bd_net -net proc_sys_reset_0_peripheral_aresetn [get_bd_pins hb_0/nrstIn] [get_bd_pins kato_top_0/nrstIn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
-  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins hb_0/clkIn] [get_bd_pins kato_top_0/clkIn] [get_bd_pins proc_sys_reset_0/slowest_sync_clk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK]
+  connect_bd_net -net ip_m_pwm_0_arduinoIO4Out [get_bd_ports arduinoIO4Out] [get_bd_pins ip_m_pwm_0/arduinoIO4Out]
+  connect_bd_net -net ip_m_pwm_0_arduinoIO5Out [get_bd_ports arduinoIO5Out] [get_bd_pins ip_m_pwm_0/arduinoIO5Out]
+  connect_bd_net -net ip_m_pwm_0_arduinoIO6Out [get_bd_ports arduinoIO6Out] [get_bd_pins ip_m_pwm_0/arduinoIO6Out]
+  connect_bd_net -net ip_m_pwm_0_arduinoIO7Out [get_bd_ports arduinoIO7Out] [get_bd_pins ip_m_pwm_0/arduinoIO7Out]
+  connect_bd_net -net ip_m_pwm_0_hbLedOut [get_bd_ports hbLedOut] [get_bd_pins ip_m_pwm_0/hbLedOut]
+  connect_bd_net -net ip_m_pwm_0_pwm0Out [get_bd_ports pwm0Out] [get_bd_pins ip_m_pwm_0/pwm0Out]
+  connect_bd_net -net proc_sys_reset_0_peripheral_aresetn [get_bd_pins hb_0/nrstIn] [get_bd_pins ip_m_pwm_0/s00_axi_aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn] [get_bd_pins ps7_0_axi_periph/ARESETN] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN]
+  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins hb_0/clkIn] [get_bd_pins ip_m_pwm_0/s00_axi_aclk] [get_bd_pins proc_sys_reset_0/slowest_sync_clk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK]
   connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins proc_sys_reset_0/ext_reset_in] [get_bd_pins processing_system7_0/FCLK_RESET0_N]
-  connect_bd_net -net sw2In_1 [get_bd_ports sw2In] [get_bd_pins kato_top_0/sw2In]
-  connect_bd_net -net sw3In_1 [get_bd_ports sw3In] [get_bd_pins kato_top_0/sw3In]
-  connect_bd_net -net sw4In_1 [get_bd_ports sw4In] [get_bd_pins kato_top_0/sw4In]
-  connect_bd_net -net sw5In_1 [get_bd_ports sw5In] [get_bd_pins kato_top_0/sw5In]
-  connect_bd_net -net xlconstant_0_dout [get_bd_pins kato_top_0/sw1In] [get_bd_pins xlconstant_0/dout]
+  connect_bd_net -net sw2In_1 [get_bd_ports sw2In] [get_bd_pins ip_m_pwm_0/sw2In]
+  connect_bd_net -net sw3In_1 [get_bd_ports sw3In] [get_bd_pins ip_m_pwm_0/sw3In]
+  connect_bd_net -net sw4In_1 [get_bd_ports sw4In] [get_bd_pins ip_m_pwm_0/sw4In]
+  connect_bd_net -net sw5In_1 [get_bd_ports sw5In] [get_bd_pins ip_m_pwm_0/sw5In]
+  connect_bd_net -net xlconstant_0_dout [get_bd_pins ip_m_pwm_0/sw1In] [get_bd_pins xlconstant_0/dout]
 
   # Create address segments
+  assign_bd_address -offset 0x43C00000 -range 0x00000400 -target_address_space [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs ip_m_pwm_0/S00_AXI/S00_AXI_reg] -force
 
 
   # Restore current instance

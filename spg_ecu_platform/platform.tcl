@@ -26,3 +26,20 @@ platform config -updatehw {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/de
 platform generate -domains 
 platform config -updatehw {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa}
 platform generate -domains 
+platform active {spg_ecu_platform}
+platform config -updatehw {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa}
+platform active {spg_ecu_platform}
+platform config -updatehw {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa}
+platform config -updatehw {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa}
+platform clean
+platform config -updatehw {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa}
+platform clean
+platform config -updatehw {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa}
+domain active {zynq_fsbl}
+bsp reload
+platform config -remove-boot-bsp
+platform write
+platform clean
+platform active {spg_ecu_platform}
+platform config -updatehw {C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/design_1_wrapper.xsa}
+platform generate

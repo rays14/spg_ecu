@@ -49,17 +49,20 @@
 #include "platform.h"
 #include "xil_printf.h"
 #include "sleep.h"
+#include "cli.h"
 
-int main()
-{
-	int i = 0;
+int main() {
+	//int i = 0;
     init_platform();
 
     while (1) {
-    	xil_printf("%d - ", i++);
-    	print("Hello World\n\r");
-    	print("Successfully ran Hello World application");
-    	sleep(1);
+    	//xil_printf("%d - ", i++);
+    	//print("Hello World\n\r");
+    	//print("Successfully ran Hello World application");
+    	//sleep(1);
+
+        // Command line interface. All processing inside of this.
+        cli_task_blocking();
     }
     cleanup_platform();
     return 0;
