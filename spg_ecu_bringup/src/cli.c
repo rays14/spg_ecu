@@ -239,9 +239,9 @@ static void freq_cb(int argc, char *argv[]) {
         	xil_printf("[NOTE] pwm_cb : u32_freq = %d\n\r", u32_freq);
 
         	// Calculate onTime and periodTime from frequency.
-            const float cf32_clockPeriod = 1.0 / 50000000.0;
+            const double cf32_clockPeriod = 1.0 / 50000000.0;
 
-            u32_periodTime = (uint32_t)((1.0 / (float)u32_freq) / cf32_clockPeriod);
+            u32_periodTime = (uint32_t)((1.0 / (double)u32_freq) / cf32_clockPeriod);
             u32_onTime     = (uint32_t)(u32_periodTime / 2.0);
 
             IP_M_PWM_mWriteReg(IP_M_PWM_BADDR, u32_onTimeReg, u32_onTime);

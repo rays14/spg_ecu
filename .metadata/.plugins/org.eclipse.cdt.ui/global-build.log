@@ -1,46 +1,9 @@
 Nothing to build in platform 'spg_ecu_platform'
 
-11:05:32 **** Incremental Build of configuration Debug for project spg_ecu_bringup ****
+13:16:03 **** Incremental Build of configuration Debug for project spg_ecu_bringup ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/cli.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cli.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/cli.d" -MT"src/cli.o" -o "src/cli.o" "../src/cli.c"
-../src/cli.c:85:1: warning: multi-line comment [-Wcomment]
-   85 | //#define control_c_break \
-      | ^
-../src/cli.c:132:1: warning: no semicolon at end of struct or union
-  132 | } s_regTable[] = {
-      | ^
-../src/cli.c:143:3: warning: initialization of 'long unsigned int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
-  143 |  {NULL, NULL}
-      |   ^~~~
-../src/cli.c:143:3: note: (near initialization for 's_regTable[10].u32_onTimeReg')
-../src/cli.c:143:9: warning: initialization of 'long unsigned int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
-  143 |  {NULL, NULL}
-      |         ^~~~
-../src/cli.c:143:9: note: (near initialization for 's_regTable[10].u32_periodTimeReg')
-../src/cli.c: In function 'menu_cmd_cb':
-../src/cli.c:169:15: warning: unused variable 'cmdd' [-Wunused-variable]
-  169 |         char *cmdd = cmd_table[i].cmd_description;
-      |               ^~~~
-At top level:
-../src/cli.c:96:16: warning: 'control_c_break' defined but not used [-Wunused-function]
-   96 | static int32_t control_c_break(void) {
-      |                ^~~~~~~~~~~~~~~
-'Finished building: ../src/cli.c'
-' '
-'Building target: spg_ecu_bringup.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/bsplib/lib -o "spg_ecu_bringup.elf"  ./src/cli.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: spg_ecu_bringup.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size spg_ecu_bringup.elf  |tee "spg_ecu_bringup.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  27436	   1328	  23880	  52644	   cda4	spg_ecu_bringup.elf
-'Finished building: spg_ecu_bringup.elf.size'
-' '
+make[1]: Nothing to be done for 'main-build'.

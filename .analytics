@@ -85,3 +85,6 @@ timestamp=[2023-02-06 10:47:05], mode=BUILD, duration=0:00:00.556, duration_ms=5
 timestamp=[2023-02-06 10:59:43], mode=BUILD, duration=0:00:00.555, duration_ms=555, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
 timestamp=[2023-02-06 11:01:21], mode=BUILD, duration=0:00:00.550, duration_ms=550, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
 timestamp=[2023-02-06 11:05:32], mode=BUILD, duration=0:00:00.553, duration_ms=553, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-02-06 13:14:29], mode=BUILD, duration=0:00:00.303, duration_ms=303, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-02-06 13:14:46], mode=BUILD, duration=0:00:00.550, duration_ms=550, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-02-06 13:16:03], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
