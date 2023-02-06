@@ -1,6 +1,6 @@
 Nothing to build in platform 'spg_ecu_platform'
 
-16:05:40 **** Incremental Build of configuration Debug for project spg_ecu_bringup ****
+11:05:32 **** Incremental Build of configuration Debug for project spg_ecu_bringup ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -12,9 +12,20 @@ arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cli.o" -mcpu=corte
 ../src/cli.c:85:1: warning: multi-line comment [-Wcomment]
    85 | //#define control_c_break \
       | ^
+../src/cli.c:132:1: warning: no semicolon at end of struct or union
+  132 | } s_regTable[] = {
+      | ^
+../src/cli.c:143:3: warning: initialization of 'long unsigned int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+  143 |  {NULL, NULL}
+      |   ^~~~
+../src/cli.c:143:3: note: (near initialization for 's_regTable[10].u32_onTimeReg')
+../src/cli.c:143:9: warning: initialization of 'long unsigned int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+  143 |  {NULL, NULL}
+      |         ^~~~
+../src/cli.c:143:9: note: (near initialization for 's_regTable[10].u32_periodTimeReg')
 ../src/cli.c: In function 'menu_cmd_cb':
-../src/cli.c:150:15: warning: unused variable 'cmdd' [-Wunused-variable]
-  150 |         char *cmdd = cmd_table[i].cmd_description;
+../src/cli.c:169:15: warning: unused variable 'cmdd' [-Wunused-variable]
+  169 |         char *cmdd = cmd_table[i].cmd_description;
       |               ^~~~
 At top level:
 ../src/cli.c:96:16: warning: 'control_c_break' defined but not used [-Wunused-function]
@@ -30,6 +41,6 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size spg_ecu_bringup.elf  |tee "spg_ecu_bringup.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  26356	   1224	  23880	  51460	   c904	spg_ecu_bringup.elf
+  27436	   1328	  23880	  52644	   cda4	spg_ecu_bringup.elf
 'Finished building: spg_ecu_bringup.elf.size'
 ' '

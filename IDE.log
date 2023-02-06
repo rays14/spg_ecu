@@ -852,3 +852,502 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 14:50:20 INFO  : Hardware specification for platform project 'spg_ecu_platform' is updated.
 14:54:21 INFO  : Hardware specification for platform project 'spg_ecu_platform' is updated.
+15:07:54 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\temp_xsdb_launch_script.tcl
+15:07:56 INFO  : XSCT server has started successfully.
+15:07:56 INFO  : plnx-install-location is set to ''
+15:07:56 INFO  : Successfully done setting XSCT server connection channel  
+15:07:56 INFO  : Successfully done setting workspace for the tool. 
+15:07:58 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+15:07:58 INFO  : Platform repository initialization has completed.
+15:07:58 INFO  : Successfully done query RDI_DATADIR 
+15:07:58 INFO  : Registering command handlers for Vitis TCF services
+15:08:47 INFO  : Hardware specification for platform project 'spg_ecu_platform' is updated.
+15:10:42 INFO  : Result from executing command 'getProjects': spg_ecu_platform
+15:10:42 INFO  : Result from executing command 'getPlatforms': 
+15:11:15 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+15:11:16 INFO  : Updating application flags with new BSP settings...
+15:11:16 INFO  : Successfully updated application flags for project spg_ecu_bringup.
+15:15:28 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+15:27:06 INFO  : The hardware specfication used by project 'spg_ecu_bringup' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+15:27:06 INFO  : The file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+15:27:06 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup\_ide\bitstream' in project 'spg_ecu_bringup'.
+15:27:06 INFO  : The file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup\_ide\psinit\ps7_init.tcl' stored in project is removed.
+15:27:10 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup\_ide\psinit' in project 'spg_ecu_bringup'.
+15:27:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:13 INFO  : Jtag cable 'Digilent Zybo 210279777768A' is selected.
+15:27:13 INFO  : 'jtag frequency' command is executed.
+15:27:13 INFO  : Context for 'APU' is selected.
+15:27:13 INFO  : System reset is completed.
+15:27:16 INFO  : 'after 3000' command is executed.
+15:27:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}' command is executed.
+15:27:18 INFO  : Device configured successfully with "C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit"
+15:27:18 INFO  : Context for 'APU' is selected.
+15:27:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa'.
+15:27:18 INFO  : 'configparams force-mem-access 1' command is executed.
+15:27:18 INFO  : Context for 'APU' is selected.
+15:27:18 INFO  : Sourcing of 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl' is done.
+15:27:18 INFO  : 'ps7_init' command is executed.
+15:27:18 INFO  : 'ps7_post_config' command is executed.
+15:27:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:27:18 INFO  : The application 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:27:18 INFO  : 'configparams force-mem-access 0' command is executed.
+15:27:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}
+fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:27:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:27:18 INFO  : 'con' command is executed.
+15:27:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:27:18 INFO  : Launch script is exported to file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup_system\_ide\scripts\debugger_spg_ecu_bringup-default.tcl'
+16:05:40 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+16:05:48 INFO  : Disconnected from the channel tcfchan#4.
+16:05:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:05:49 INFO  : Jtag cable 'Digilent Zybo 210279777768A' is selected.
+16:05:49 INFO  : 'jtag frequency' command is executed.
+16:05:49 INFO  : Context for 'APU' is selected.
+16:05:49 INFO  : System reset is completed.
+16:05:52 INFO  : 'after 3000' command is executed.
+16:05:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}' command is executed.
+16:05:54 INFO  : Device configured successfully with "C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit"
+16:05:54 INFO  : Context for 'APU' is selected.
+16:05:54 INFO  : Hardware design and registers information is loaded from 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa'.
+16:05:54 INFO  : 'configparams force-mem-access 1' command is executed.
+16:05:54 INFO  : Context for 'APU' is selected.
+16:05:54 INFO  : Sourcing of 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl' is done.
+16:05:54 INFO  : 'ps7_init' command is executed.
+16:05:54 INFO  : 'ps7_post_config' command is executed.
+16:05:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:05:54 INFO  : The application 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:05:54 INFO  : 'configparams force-mem-access 0' command is executed.
+16:05:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}
+fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:05:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:05:54 INFO  : 'con' command is executed.
+16:05:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:05:54 INFO  : Launch script is exported to file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup_system\_ide\scripts\debugger_spg_ecu_bringup-default.tcl'
+09:59:19 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+09:59:39 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+10:11:05 INFO  : Disconnected from the channel tcfchan#5.
+10:11:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:11:06 INFO  : Jtag cable 'Digilent Zybo 210279777768A' is selected.
+10:11:06 INFO  : 'jtag frequency' command is executed.
+10:11:06 INFO  : Context for 'APU' is selected.
+10:11:06 INFO  : System reset is completed.
+10:11:09 INFO  : 'after 3000' command is executed.
+10:11:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}' command is executed.
+10:11:11 INFO  : Device configured successfully with "C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit"
+10:11:11 INFO  : Context for 'APU' is selected.
+10:11:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa'.
+10:11:11 INFO  : 'configparams force-mem-access 1' command is executed.
+10:11:11 INFO  : Context for 'APU' is selected.
+10:11:11 INFO  : Sourcing of 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl' is done.
+10:11:11 INFO  : 'ps7_init' command is executed.
+10:11:11 INFO  : 'ps7_post_config' command is executed.
+10:11:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:11:11 INFO  : The application 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:11:11 INFO  : 'configparams force-mem-access 0' command is executed.
+10:11:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}
+fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:11:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:11:11 INFO  : 'con' command is executed.
+10:11:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:11:11 INFO  : Launch script is exported to file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup_system\_ide\scripts\debugger_spg_ecu_bringup-default.tcl'
+10:17:50 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+10:32:06 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+10:32:24 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+10:32:40 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+10:33:11 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+10:33:27 INFO  : Disconnected from the channel tcfchan#6.
+10:33:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:33:28 INFO  : Jtag cable 'Digilent Zybo 210279777768A' is selected.
+10:33:28 INFO  : 'jtag frequency' command is executed.
+10:33:28 INFO  : Context for 'APU' is selected.
+10:33:28 INFO  : System reset is completed.
+10:33:31 INFO  : 'after 3000' command is executed.
+10:33:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}' command is executed.
+10:33:32 INFO  : Device configured successfully with "C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit"
+10:33:32 INFO  : Context for 'APU' is selected.
+10:33:32 INFO  : Hardware design and registers information is loaded from 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa'.
+10:33:32 INFO  : 'configparams force-mem-access 1' command is executed.
+10:33:32 INFO  : Context for 'APU' is selected.
+10:33:32 INFO  : Sourcing of 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl' is done.
+10:33:33 INFO  : 'ps7_init' command is executed.
+10:33:33 INFO  : 'ps7_post_config' command is executed.
+10:33:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:33:33 INFO  : The application 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:33:33 INFO  : 'configparams force-mem-access 0' command is executed.
+10:33:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}
+fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:33:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:33:33 INFO  : 'con' command is executed.
+10:33:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:33:33 INFO  : Launch script is exported to file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup_system\_ide\scripts\debugger_spg_ecu_bringup-default.tcl'
+10:38:00 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+10:38:14 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+10:38:21 INFO  : Disconnected from the channel tcfchan#7.
+10:38:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:38:23 INFO  : Jtag cable 'Digilent Zybo 210279777768A' is selected.
+10:38:23 INFO  : 'jtag frequency' command is executed.
+10:38:23 INFO  : Context for 'APU' is selected.
+10:38:23 INFO  : System reset is completed.
+10:38:26 INFO  : 'after 3000' command is executed.
+10:38:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}' command is executed.
+10:38:27 INFO  : Device configured successfully with "C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit"
+10:38:27 INFO  : Context for 'APU' is selected.
+10:38:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa'.
+10:38:27 INFO  : 'configparams force-mem-access 1' command is executed.
+10:38:27 INFO  : Context for 'APU' is selected.
+10:38:27 INFO  : Sourcing of 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl' is done.
+10:38:27 INFO  : 'ps7_init' command is executed.
+10:38:27 INFO  : 'ps7_post_config' command is executed.
+10:38:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:38:28 INFO  : The application 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:38:28 INFO  : 'configparams force-mem-access 0' command is executed.
+10:38:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}
+fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:38:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:38:28 INFO  : 'con' command is executed.
+10:38:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:38:28 INFO  : Launch script is exported to file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup_system\_ide\scripts\debugger_spg_ecu_bringup-default.tcl'
+10:42:27 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+10:42:32 INFO  : Disconnected from the channel tcfchan#8.
+10:42:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:42:33 INFO  : Jtag cable 'Digilent Zybo 210279777768A' is selected.
+10:42:33 INFO  : 'jtag frequency' command is executed.
+10:42:33 INFO  : Context for 'APU' is selected.
+10:42:33 INFO  : System reset is completed.
+10:42:36 INFO  : 'after 3000' command is executed.
+10:42:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}' command is executed.
+10:42:38 INFO  : Device configured successfully with "C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit"
+10:42:38 INFO  : Context for 'APU' is selected.
+10:42:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa'.
+10:42:38 INFO  : 'configparams force-mem-access 1' command is executed.
+10:42:38 INFO  : Context for 'APU' is selected.
+10:42:38 INFO  : Sourcing of 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl' is done.
+10:42:38 INFO  : 'ps7_init' command is executed.
+10:42:38 INFO  : 'ps7_post_config' command is executed.
+10:42:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:42:38 INFO  : The application 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:42:38 INFO  : 'configparams force-mem-access 0' command is executed.
+10:42:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}
+fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:42:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:42:38 INFO  : 'con' command is executed.
+10:42:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:42:38 INFO  : Launch script is exported to file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup_system\_ide\scripts\debugger_spg_ecu_bringup-default.tcl'
+10:44:43 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+10:44:48 INFO  : Disconnected from the channel tcfchan#9.
+10:44:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:44:49 INFO  : Jtag cable 'Digilent Zybo 210279777768A' is selected.
+10:44:49 INFO  : 'jtag frequency' command is executed.
+10:44:49 INFO  : Context for 'APU' is selected.
+10:44:49 INFO  : System reset is completed.
+10:44:52 INFO  : 'after 3000' command is executed.
+10:44:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}' command is executed.
+10:44:53 INFO  : Device configured successfully with "C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit"
+10:44:53 INFO  : Context for 'APU' is selected.
+10:44:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa'.
+10:44:53 INFO  : 'configparams force-mem-access 1' command is executed.
+10:44:53 INFO  : Context for 'APU' is selected.
+10:44:53 INFO  : Sourcing of 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl' is done.
+10:44:54 INFO  : 'ps7_init' command is executed.
+10:44:54 INFO  : 'ps7_post_config' command is executed.
+10:44:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:44:54 INFO  : The application 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:44:54 INFO  : 'configparams force-mem-access 0' command is executed.
+10:44:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}
+fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:44:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:44:54 INFO  : 'con' command is executed.
+10:44:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:44:54 INFO  : Launch script is exported to file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup_system\_ide\scripts\debugger_spg_ecu_bringup-default.tcl'
+10:47:05 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+10:47:12 INFO  : Disconnected from the channel tcfchan#10.
+10:47:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:47:13 INFO  : Jtag cable 'Digilent Zybo 210279777768A' is selected.
+10:47:13 INFO  : 'jtag frequency' command is executed.
+10:47:13 INFO  : Context for 'APU' is selected.
+10:47:13 INFO  : System reset is completed.
+10:47:16 INFO  : 'after 3000' command is executed.
+10:47:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}' command is executed.
+10:47:17 INFO  : Device configured successfully with "C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit"
+10:47:18 INFO  : Context for 'APU' is selected.
+10:47:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa'.
+10:47:18 INFO  : 'configparams force-mem-access 1' command is executed.
+10:47:18 INFO  : Context for 'APU' is selected.
+10:47:18 INFO  : Sourcing of 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl' is done.
+10:47:18 INFO  : 'ps7_init' command is executed.
+10:47:18 INFO  : 'ps7_post_config' command is executed.
+10:47:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:47:18 INFO  : The application 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:47:18 INFO  : 'configparams force-mem-access 0' command is executed.
+10:47:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}
+fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:47:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:47:18 INFO  : 'con' command is executed.
+10:47:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:47:18 INFO  : Launch script is exported to file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup_system\_ide\scripts\debugger_spg_ecu_bringup-default.tcl'
+10:59:43 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+11:01:21 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+11:01:26 INFO  : Disconnected from the channel tcfchan#11.
+11:01:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:01:27 INFO  : Jtag cable 'Digilent Zybo 210279777768A' is selected.
+11:01:27 INFO  : 'jtag frequency' command is executed.
+11:01:27 INFO  : Context for 'APU' is selected.
+11:01:27 INFO  : System reset is completed.
+11:01:30 INFO  : 'after 3000' command is executed.
+11:01:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}' command is executed.
+11:01:32 INFO  : Device configured successfully with "C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit"
+11:01:32 INFO  : Context for 'APU' is selected.
+11:01:32 INFO  : Hardware design and registers information is loaded from 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa'.
+11:01:32 INFO  : 'configparams force-mem-access 1' command is executed.
+11:01:32 INFO  : Context for 'APU' is selected.
+11:01:32 INFO  : Sourcing of 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl' is done.
+11:01:32 INFO  : 'ps7_init' command is executed.
+11:01:32 INFO  : 'ps7_post_config' command is executed.
+11:01:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:01:32 INFO  : The application 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:01:32 INFO  : 'configparams force-mem-access 0' command is executed.
+11:01:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}
+fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:01:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:01:32 INFO  : 'con' command is executed.
+11:01:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:01:32 INFO  : Launch script is exported to file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup_system\_ide\scripts\debugger_spg_ecu_bringup-default.tcl'
+11:05:32 INFO  : Checking for BSP changes to sync application flags for project 'spg_ecu_bringup'...
+11:05:37 INFO  : Disconnected from the channel tcfchan#12.
+11:05:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:05:39 INFO  : Jtag cable 'Digilent Zybo 210279777768A' is selected.
+11:05:39 INFO  : 'jtag frequency' command is executed.
+11:05:39 INFO  : Context for 'APU' is selected.
+11:05:39 INFO  : System reset is completed.
+11:05:42 INFO  : 'after 3000' command is executed.
+11:05:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}' command is executed.
+11:05:43 INFO  : Device configured successfully with "C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit"
+11:05:43 INFO  : Context for 'APU' is selected.
+11:05:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa'.
+11:05:43 INFO  : 'configparams force-mem-access 1' command is executed.
+11:05:43 INFO  : Context for 'APU' is selected.
+11:05:43 INFO  : Sourcing of 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl' is done.
+11:05:43 INFO  : 'ps7_init' command is executed.
+11:05:43 INFO  : 'ps7_post_config' command is executed.
+11:05:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:05:43 INFO  : The application 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:05:43 INFO  : 'configparams force-mem-access 0' command is executed.
+11:05:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}
+fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:05:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:05:44 INFO  : 'con' command is executed.
+11:05:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:05:44 INFO  : Launch script is exported to file 'C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_bringup_system\_ide\scripts\debugger_spg_ecu_bringup-default.tcl'

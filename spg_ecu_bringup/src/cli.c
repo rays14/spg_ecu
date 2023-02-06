@@ -115,13 +115,32 @@ static void menu_cmd_cb(int argc, char *argv[]);
 static void help_cmd_cb(int argc, char *argv[]);
 static void history_cmd_cb(int argc, char *argv[]);
 static void pwm_cb(int argc, char *argv[]);
+static void freq_cb(int argc, char *argv[]);
 
 struct cli_cmds_t cmd_table[] = {
-    {"menu",    "Command menu.",              NULL,                menu_cmd_cb},
-    {"help",    "Command help.",              NULL,                help_cmd_cb},
-    {"history", "Command history.",           NULL,                history_cmd_cb},
-    {"pwm",     "Set pwm on-time and period", "<0 to 2^32-1> <0 to 2^32-1>", pwm_cb},
-    {NULL,      NULL,                         NULL,                NULL}
+    {"menu",    "Command menu.",              NULL,                        menu_cmd_cb},
+    {"help",    "Command help.",              NULL,                        help_cmd_cb},
+    {"history", "Command history.",           NULL,                        history_cmd_cb},
+    {"pwm",     "Set pwm, on-time, period", "<0-3> <0-2^32-1> <0-2^32-1>", pwm_cb},
+	{"freq",    "Set pwm, freq",            "<0-3> <0-16000000>",          freq_cb},
+    {NULL,      NULL,                         NULL,                        NULL}
+};
+
+struct {
+    uint32_t u32_onTimeReg;
+	uint32_t u32_periodTimeReg
+} s_regTable[] = {
+	{IP_M_PWM_S00_AXI_SLV_REG0_OFFSET,  IP_M_PWM_S00_AXI_SLV_REG1_OFFSET},
+	{IP_M_PWM_S00_AXI_SLV_REG2_OFFSET,  IP_M_PWM_S00_AXI_SLV_REG3_OFFSET},
+	{IP_M_PWM_S00_AXI_SLV_REG4_OFFSET,  IP_M_PWM_S00_AXI_SLV_REG5_OFFSET},
+	{IP_M_PWM_S00_AXI_SLV_REG6_OFFSET,  IP_M_PWM_S00_AXI_SLV_REG7_OFFSET},
+	{IP_M_PWM_S00_AXI_SLV_REG8_OFFSET,  IP_M_PWM_S00_AXI_SLV_REG9_OFFSET},
+	{IP_M_PWM_S00_AXI_SLV_REG10_OFFSET, IP_M_PWM_S00_AXI_SLV_REG11_OFFSET},
+	{IP_M_PWM_S00_AXI_SLV_REG12_OFFSET, IP_M_PWM_S00_AXI_SLV_REG13_OFFSET},
+	{IP_M_PWM_S00_AXI_SLV_REG14_OFFSET, IP_M_PWM_S00_AXI_SLV_REG15_OFFSET},
+	{IP_M_PWM_S00_AXI_SLV_REG16_OFFSET, IP_M_PWM_S00_AXI_SLV_REG17_OFFSET},
+	{IP_M_PWM_S00_AXI_SLV_REG18_OFFSET, IP_M_PWM_S00_AXI_SLV_REG19_OFFSET},
+	{NULL, NULL}
 };
 
 static void print_args(int argc, char *argv[]) {
@@ -167,17 +186,69 @@ static void pwm_cb(int argc, char *argv[]) {
     xil_printf("\r\npwm_cb\r\n");
     print_args(argc, argv);
 
-    // Needs 2 arguments along with the pwm command.
-    if (argc < 2) {
+    if (argc < 3) {
         xil_printf("[ERROR] pwm_cb : Needs 2 arguments to pwm a b (where a and b are in the range 0 to 16000\n\r");
     } else {
-        xil_printf("[NOTE] pwm_cb : Setting on-time to %s and period-time to %s\n\r", argv[1], argv[2]);
+        xil_printf("[NOTE] pwm_cb : Setting pwm = %s, on-time = %s, period-time = %s\n\r", argv[1], argv[2], argv[3]);
 
-        uint32_t u32_onTime     = (uint32_t)atoi(argv[1]);
-        uint32_t u32_periodTime = (uint32_t)atoi(argv[2]);
+        uint32_t u32_pwm        = (uint32_t)atoi(argv[1]);
+        uint32_t u32_onTime     = (uint32_t)atoi(argv[2]);
+        uint32_t u32_periodTime = (uint32_t)atoi(argv[3]);
+        uint32_t u32_onTimeReg;
+		uint32_t u32_periodTimeReg;
 
-        IP_M_PWM_mWriteReg(IP_M_PWM_BADDR, IP_M_PWM_S00_AXI_SLV_REG0_OFFSET, u32_onTime);     // onTime0In
-        IP_M_PWM_mWriteReg(IP_M_PWM_BADDR, IP_M_PWM_S00_AXI_SLV_REG1_OFFSET, u32_periodTime); // period0In
+        if (u32_pwm < 4) {
+        	uint32_t u32_index = u32_pwm * 2;
+        	u32_onTimeReg      = s_regTable[u32_index].u32_onTimeReg;
+        	u32_periodTimeReg  = s_regTable[u32_index].u32_periodTimeReg;
+
+        	xil_printf("[NOTE] pwm_cb : u32_pwm = %d\n\r", u32_pwm);
+        	xil_printf("[NOTE] pwm_cb : u32_onTimeReg = %d\n\r", u32_onTimeReg);
+        	xil_printf("[NOTE] pwm_cb : u32_periodTimeReg = %d\n\r", u32_periodTimeReg);
+
+            IP_M_PWM_mWriteReg(IP_M_PWM_BADDR, u32_onTimeReg, u32_onTime);
+            IP_M_PWM_mWriteReg(IP_M_PWM_BADDR, u32_periodTimeReg, u32_periodTime);
+        } else {
+        	xil_printf("[ERROR] pwm_cb : First argument (pwm) only 0-3\n\r");
+        }
+    }
+}
+
+static void freq_cb(int argc, char *argv[]) {
+    xil_printf("\r\nfreq_cb\r\n");
+    print_args(argc, argv);
+
+    if (argc < 3) {
+        xil_printf("[ERROR] freq_cb : Needs 2 arguments to freq a b (where a and b are in the range 0 to 16000000\n\r");
+    } else {
+        xil_printf("[NOTE] freq_cb : Setting pwm = %s, frequency (Hz) = %s\n\r", argv[1], argv[2]);
+
+        uint32_t u32_pwm           = (uint32_t)atoi(argv[1]);
+        uint32_t u32_freq          = (uint32_t)atoi(argv[2]);
+        uint32_t u32_onTime        = 0;
+        uint32_t u32_periodTime    = 0;
+        uint32_t u32_onTimeReg     = 0;
+		uint32_t u32_periodTimeReg = 0;
+
+        if (u32_pwm < 4) {
+        	uint32_t u32_index = u32_pwm * 2;
+        	u32_onTimeReg      = s_regTable[u32_index].u32_onTimeReg;
+        	u32_periodTimeReg  = s_regTable[u32_index].u32_periodTimeReg;
+
+        	xil_printf("[NOTE] pwm_cb : u32_pwm  = %d\n\r", u32_pwm);
+        	xil_printf("[NOTE] pwm_cb : u32_freq = %d\n\r", u32_freq);
+
+        	// Calculate onTime and periodTime from frequency.
+            const float cf32_clockPeriod = 1.0 / 50000000.0;
+
+            u32_periodTime = (uint32_t)((1.0 / (float)u32_freq) / cf32_clockPeriod);
+            u32_onTime     = (uint32_t)(u32_periodTime / 2.0);
+
+            IP_M_PWM_mWriteReg(IP_M_PWM_BADDR, u32_onTimeReg, u32_onTime);
+            IP_M_PWM_mWriteReg(IP_M_PWM_BADDR, u32_periodTimeReg, u32_periodTime);
+        } else {
+        	xil_printf("[ERROR] pwm_cb : First argument (pwm) only 0-3\n\r");
+        }
     }
 }
 // ----------------------------------------------------------------------------
@@ -300,9 +371,11 @@ void cli_task_blocking(void) {
                 cmd_history_table_current_index++;
             }
         } else if (c == 'C') { // Forward.
-            xil_printf("forward ");
+            //xil_printf("forward ");
+            xil_printf("\033[1C");
         } else if (c == 'D') { // backward
-            xil_printf("backward ");
+            //xil_printf("backward ");
+            xil_printf("\033[1D");
         }
 
         // Simulates a continue so the last \r is not printed again.
