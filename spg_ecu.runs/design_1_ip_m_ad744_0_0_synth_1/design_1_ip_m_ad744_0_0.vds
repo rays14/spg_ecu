@@ -1,0 +1,351 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Feb 14 12:07:40 2023
+# Process ID: 10192
+# Current directory: C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/design_1_ip_m_ad744_0_0_synth_1
+# Command line: vivado.exe -log design_1_ip_m_ad744_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ip_m_ad744_0_0.tcl
+# Log file: C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/design_1_ip_m_ad744_0_0_synth_1/design_1_ip_m_ad744_0_0.vds
+# Journal file: C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/design_1_ip_m_ad744_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_ip_m_ad744_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/SidRay/Documents/topper/projs/git/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+Command: synth_design -top design_1_ip_m_ad744_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18140
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1182.242 ; gain = 55.855
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_m_ad744_0_0' [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ip/design_1_ip_m_ad744_0_0/synth/design_1_ip_m_ad744_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'ip_m_ad744_v1_0' [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/hdl/ip_m_ad744_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ip_m_ad744_v1_0_S00_AXI' [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/hdl/ip_m_ad744_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 2 - type: integer 
+	Parameter NUMREGS_SPI bound to: 13 - type: integer 
+	Parameter NUMREGS_MUX bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ad744' [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/ad744.v:1]
+	Parameter NUMREGS_SPI bound to: 13 - type: integer 
+	Parameter NUMREGS_MUX bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'spi_pp' [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/spi_pp.v:1]
+	Parameter NUMREGS bound to: 13 - type: integer 
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter SENDSPI bound to: 1 - type: integer 
+	Parameter UPDATEMEM bound to: 2 - type: integer 
+	Parameter S_IDLE bound to: 0 - type: integer 
+	Parameter S_UPDATE_TX_DATA bound to: 1 - type: integer 
+	Parameter S_SEND_IT bound to: 2 - type: integer 
+	Parameter S_WAIT bound to: 3 - type: integer 
+	Parameter S_UPDATE_RX_DATA bound to: 4 - type: integer 
+	Parameter S_CHECK_RECV bound to: 5 - type: integer 
+	Parameter S_END_IT bound to: 6 - type: integer 
+	Parameter SPI_ADC_DATA bound to: 104'b01000001000000000010011011110001000000000000000000000000000000000000000000000000000000000000000010101011 
+INFO: [Synth 8-6157] synthesizing module 'rising_edge_bit' [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/my_ver_lib.v:101]
+INFO: [Synth 8-6155] done synthesizing module 'rising_edge_bit' (1#1) [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/my_ver_lib.v:101]
+INFO: [Synth 8-6157] synthesizing module 'sticky_bit' [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/my_ver_lib.v:68]
+	Parameter LEVEL bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sticky_bit' (2#1) [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/my_ver_lib.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/spi_pp.v:173]
+INFO: [Synth 8-6157] synthesizing module 'spi_master' [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/spi.v:44]
+	Parameter CPHA bound to: 1'b0 
+	Parameter CPOL bound to: 1'b0 
+	Parameter DATA_SIZE bound to: 8 - type: integer 
+	Parameter CS_IDLE bound to: 2'b00 
+	Parameter CS_WAIT bound to: 2'b01 
+	Parameter CS_ASSERT bound to: 2'b10 
+	Parameter CS_DEASSERT bound to: 2'b11 
+	Parameter SCLK_IDLE bound to: 3'b000 
+	Parameter SCLK_START_DELAY bound to: 3'b001 
+	Parameter SCLK_START bound to: 3'b010 
+	Parameter SCLK_STOP_DELAY bound to: 3'b011 
+	Parameter SCLK_STOP bound to: 3'b100 
+	Parameter MOSI_IDLE bound to: 0 - type: integer 
+	Parameter MOSI_START bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'sticky' [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/spi.v:7]
+	Parameter CLEAR bound to: 0 - type: integer 
+	Parameter SET bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sticky' (3#1) [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/spi.v:7]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/spi.v:204]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/spi.v:337]
+INFO: [Synth 8-6155] done synthesizing module 'spi_master' (4#1) [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/spi.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'spi_pp' (5#1) [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/spi_pp.v:1]
+INFO: [Synth 8-6157] synthesizing module 'reg_mux' [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/reg_mux.v:1]
+	Parameter NUMREGS bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_mux' (6#1) [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/reg_mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ad744' (7#1) [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/src/ad744.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ip_m_ad744_v1_0_S00_AXI' (8#1) [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/hdl/ip_m_ad744_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ip_m_ad744_v1_0' (9#1) [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ipshared/31c4/hdl/ip_m_ad744_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_m_ad744_0_0' (10#1) [c:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.gen/sources_1/bd/design_1/ip/design_1_ip_m_ad744_0_0/synth/design_1_ip_m_ad744_0_0.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1251.520 ; gain = 125.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1251.520 ; gain = 125.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1251.520 ; gain = 125.133
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1251.520 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1369.488 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1369.488 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1369.488 ; gain = 243.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1369.488 ; gain = 243.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1369.488 ; gain = 243.102
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'cs_fsm_r_reg' in module 'spi_master'
+INFO: [Synth 8-802] inferred FSM for state register 'sclk_fsm_r_reg' in module 'spi_master'
+INFO: [Synth 8-802] inferred FSM for state register 'mosi_fsm_r_reg' in module 'spi_master'
+INFO: [Synth 8-802] inferred FSM for state register 'fsmSpiR_reg' in module 'spi_pp'
+INFO: [Synth 8-802] inferred FSM for state register 'spiAd744FsmR_reg' in module 'spi_pp'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 CS_IDLE |                               00 |                               00
+                 CS_WAIT |                               01 |                               01
+               CS_ASSERT |                               10 |                               10
+             CS_DEASSERT |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cs_fsm_r_reg' using encoding 'sequential' in module 'spi_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               SCLK_IDLE |                              000 |                              000
+        SCLK_START_DELAY |                              001 |                              001
+              SCLK_START |                              010 |                              010
+         SCLK_STOP_DELAY |                              011 |                              011
+               SCLK_STOP |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sclk_fsm_r_reg' using encoding 'sequential' in module 'spi_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               MOSI_IDLE |                                0 |                             0000
+              MOSI_START |                                1 |                             0001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'mosi_fsm_r_reg' using encoding 'sequential' in module 'spi_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+        S_UPDATE_TX_DATA |                              001 |                              001
+               S_SEND_IT |                              010 |                              010
+                  S_WAIT |                              011 |                              011
+        S_UPDATE_RX_DATA |                              100 |                              100
+            S_CHECK_RECV |                              101 |                              101
+                S_END_IT |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'spiAd744FsmR_reg' using encoding 'sequential' in module 'spi_pp'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              001 |                         00000000
+                 SENDSPI |                              010 |                         00000001
+               UPDATEMEM |                              100 |                         00000010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsmSpiR_reg' using encoding 'one-hot' in module 'spi_pp'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1369.488 ; gain = 243.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 5     
+	   2 Input    5 Bit       Adders := 1     
++---Registers : 
+	              104 Bit    Registers := 1     
+	               32 Bit    Registers := 9     
+	                8 Bit    Registers := 29    
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 8     
+	                1 Bit    Registers := 22    
++---Muxes : 
+	   7 Input  104 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 6     
+	   5 Input   32 Bit        Muxes := 4     
+	   7 Input   32 Bit        Muxes := 1     
+	   6 Input   32 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 20    
+	   4 Input    1 Bit        Muxes := 4     
+	   5 Input    1 Bit        Muxes := 9     
+	   7 Input    1 Bit        Muxes := 35    
+	   3 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1369.488 ; gain = 243.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1369.488 ; gain = 243.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1369.488 ; gain = 243.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1369.488 ; gain = 243.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1371.867 ; gain = 245.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1371.867 ; gain = 245.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1371.867 ; gain = 245.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1371.867 ; gain = 245.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1371.867 ; gain = 245.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1371.867 ; gain = 245.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    53|
+|2     |LUT1   |    20|
+|3     |LUT2   |    69|
+|4     |LUT3   |    97|
+|5     |LUT4   |    55|
+|6     |LUT5   |    28|
+|7     |LUT6   |   148|
+|8     |FDRE   |   453|
+|9     |FDSE   |     5|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1371.867 ; gain = 245.480
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1371.867 ; gain = 127.512
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1371.867 ; gain = 245.480
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1383.910 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1383.910 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1383.910 ; gain = 257.523
+INFO: [Common 17-1381] The checkpoint 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/design_1_ip_m_ad744_0_0_synth_1/design_1_ip_m_ad744_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_ip_m_ad744_0_0, cache-ID = 976e075ccb35412e
+INFO: [Coretcl 2-1174] Renamed 8 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/design_1_ip_m_ad744_0_0_synth_1/design_1_ip_m_ad744_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_ip_m_ad744_0_0_utilization_synth.rpt -pb design_1_ip_m_ad744_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 14 12:08:11 2023...

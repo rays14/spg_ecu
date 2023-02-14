@@ -173,9 +173,13 @@ proc create_root_design { parentCell } {
   set arduinoIO5Out [ create_bd_port -dir O arduinoIO5Out ]
   set arduinoIO6Out [ create_bd_port -dir O arduinoIO6Out ]
   set arduinoIO7Out [ create_bd_port -dir O arduinoIO7Out ]
+  set csOut [ create_bd_port -dir O csOut ]
   set hbLedOut [ create_bd_port -dir O hbLedOut ]
   set hbOut [ create_bd_port -dir O hbOut ]
+  set misoIn [ create_bd_port -dir I misoIn ]
+  set mosiOut [ create_bd_port -dir O mosiOut ]
   set pwm0Out [ create_bd_port -dir O pwm0Out ]
+  set sclkOut [ create_bd_port -dir O sclkOut ]
   set sw2In [ create_bd_port -dir I sw2In ]
   set sw3In [ create_bd_port -dir I sw3In ]
   set sw4In [ create_bd_port -dir I sw4In ]
@@ -192,6 +196,9 @@ proc create_root_design { parentCell } {
      return 1
    }
   
+  # Create instance: ip_m_ad744_0, and set properties
+  set ip_m_ad744_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:ip_m_ad744:1.0 ip_m_ad744_0 ]
+
   # Create instance: ip_m_pwm_0, and set properties
   set ip_m_pwm_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:ip_m_pwm:1.0 ip_m_pwm_0 ]
 
@@ -787,6 +794,7 @@ proc create_root_design { parentCell } {
    CONFIG.PCW_TTC1_CLK2_PERIPHERAL_DIVISOR0 {1} \
    CONFIG.PCW_TTC1_CLK2_PERIPHERAL_FREQMHZ {133.333333} \
    CONFIG.PCW_TTC1_PERIPHERAL_ENABLE {0} \
+   CONFIG.PCW_TTC1_TTC1_IO {<Select>} \
    CONFIG.PCW_TTC_PERIPHERAL_FREQMHZ {50} \
    CONFIG.PCW_UART0_BAUD_RATE {115200} \
    CONFIG.PCW_UART0_GRP_FULL_ENABLE {0} \
@@ -924,7 +932,7 @@ proc create_root_design { parentCell } {
   # Create instance: ps7_0_axi_periph, and set properties
   set ps7_0_axi_periph [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 ps7_0_axi_periph ]
   set_property -dict [ list \
-   CONFIG.NUM_MI {1} \
+   CONFIG.NUM_MI {2} \
  ] $ps7_0_axi_periph
 
   # Create instance: xlconstant_0, and set properties
@@ -938,17 +946,22 @@ proc create_root_design { parentCell } {
   connect_bd_intf_net -intf_net processing_system7_0_FIXED_IO [get_bd_intf_ports FIXED_IO] [get_bd_intf_pins processing_system7_0/FIXED_IO]
   connect_bd_intf_net -intf_net processing_system7_0_M_AXI_GP0 [get_bd_intf_pins processing_system7_0/M_AXI_GP0] [get_bd_intf_pins ps7_0_axi_periph/S00_AXI]
   connect_bd_intf_net -intf_net ps7_0_axi_periph_M00_AXI [get_bd_intf_pins ip_m_pwm_0/S00_AXI] [get_bd_intf_pins ps7_0_axi_periph/M00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M01_AXI [get_bd_intf_pins ip_m_ad744_0/S00_AXI] [get_bd_intf_pins ps7_0_axi_periph/M01_AXI]
 
   # Create port connections
   connect_bd_net -net hb_0_hbOut [get_bd_ports hbOut] [get_bd_pins hb_0/hbOut]
+  connect_bd_net -net ip_m_ad744_0_csOut [get_bd_ports csOut] [get_bd_pins ip_m_ad744_0/csOut]
+  connect_bd_net -net ip_m_ad744_0_mosiOut [get_bd_ports mosiOut] [get_bd_pins ip_m_ad744_0/mosiOut]
+  connect_bd_net -net ip_m_ad744_0_sclkOut [get_bd_ports sclkOut] [get_bd_pins ip_m_ad744_0/sclkOut]
   connect_bd_net -net ip_m_pwm_0_arduinoIO4Out [get_bd_ports arduinoIO4Out] [get_bd_pins ip_m_pwm_0/arduinoIO4Out]
   connect_bd_net -net ip_m_pwm_0_arduinoIO5Out [get_bd_ports arduinoIO5Out] [get_bd_pins ip_m_pwm_0/arduinoIO5Out]
   connect_bd_net -net ip_m_pwm_0_arduinoIO6Out [get_bd_ports arduinoIO6Out] [get_bd_pins ip_m_pwm_0/arduinoIO6Out]
   connect_bd_net -net ip_m_pwm_0_arduinoIO7Out [get_bd_ports arduinoIO7Out] [get_bd_pins ip_m_pwm_0/arduinoIO7Out]
   connect_bd_net -net ip_m_pwm_0_hbLedOut [get_bd_ports hbLedOut] [get_bd_pins ip_m_pwm_0/hbLedOut]
   connect_bd_net -net ip_m_pwm_0_pwm0Out [get_bd_ports pwm0Out] [get_bd_pins ip_m_pwm_0/pwm0Out]
-  connect_bd_net -net proc_sys_reset_0_peripheral_aresetn [get_bd_pins hb_0/nrstIn] [get_bd_pins ip_m_pwm_0/s00_axi_aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn] [get_bd_pins ps7_0_axi_periph/ARESETN] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN]
-  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins hb_0/clkIn] [get_bd_pins ip_m_pwm_0/s00_axi_aclk] [get_bd_pins proc_sys_reset_0/slowest_sync_clk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK]
+  connect_bd_net -net misoIn_1 [get_bd_ports misoIn] [get_bd_pins ip_m_ad744_0/misoIn]
+  connect_bd_net -net proc_sys_reset_0_peripheral_aresetn [get_bd_pins hb_0/nrstIn] [get_bd_pins ip_m_ad744_0/s00_axi_aresetn] [get_bd_pins ip_m_pwm_0/s00_axi_aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn] [get_bd_pins ps7_0_axi_periph/ARESETN] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/M01_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN]
+  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins hb_0/clkIn] [get_bd_pins ip_m_ad744_0/s00_axi_aclk] [get_bd_pins ip_m_pwm_0/s00_axi_aclk] [get_bd_pins proc_sys_reset_0/slowest_sync_clk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/M01_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK]
   connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins proc_sys_reset_0/ext_reset_in] [get_bd_pins processing_system7_0/FCLK_RESET0_N]
   connect_bd_net -net sw2In_1 [get_bd_ports sw2In] [get_bd_pins ip_m_pwm_0/sw2In]
   connect_bd_net -net sw3In_1 [get_bd_ports sw3In] [get_bd_pins ip_m_pwm_0/sw3In]
@@ -957,6 +970,7 @@ proc create_root_design { parentCell } {
   connect_bd_net -net xlconstant_0_dout [get_bd_pins ip_m_pwm_0/sw1In] [get_bd_pins xlconstant_0/dout]
 
   # Create address segments
+  assign_bd_address -offset 0x43C10000 -range 0x00000100 -target_address_space [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs ip_m_ad744_0/S00_AXI/S00_AXI_reg] -force
   assign_bd_address -offset 0x43C00000 -range 0x00000400 -target_address_space [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs ip_m_pwm_0/S00_AXI/S00_AXI_reg] -force
 
 

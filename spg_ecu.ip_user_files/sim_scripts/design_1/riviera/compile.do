@@ -11,9 +11,10 @@ vlib riviera/lib_cdc_v1_0_2
 vlib riviera/proc_sys_reset_v5_0_13
 vlib riviera/xlconstant_v1_1_7
 vlib riviera/generic_baseblocks_v2_1_0
+vlib riviera/axi_register_slice_v2_1_22
 vlib riviera/fifo_generator_v13_2_5
 vlib riviera/axi_data_fifo_v2_1_21
-vlib riviera/axi_register_slice_v2_1_22
+vlib riviera/axi_crossbar_v2_1_23
 vlib riviera/axi_protocol_converter_v2_1_22
 
 vmap xilinx_vip riviera/xilinx_vip
@@ -26,9 +27,10 @@ vmap lib_cdc_v1_0_2 riviera/lib_cdc_v1_0_2
 vmap proc_sys_reset_v5_0_13 riviera/proc_sys_reset_v5_0_13
 vmap xlconstant_v1_1_7 riviera/xlconstant_v1_1_7
 vmap generic_baseblocks_v2_1_0 riviera/generic_baseblocks_v2_1_0
+vmap axi_register_slice_v2_1_22 riviera/axi_register_slice_v2_1_22
 vmap fifo_generator_v13_2_5 riviera/fifo_generator_v13_2_5
 vmap axi_data_fifo_v2_1_21 riviera/axi_data_fifo_v2_1_21
-vmap axi_register_slice_v2_1_22 riviera/axi_register_slice_v2_1_22
+vmap axi_crossbar_v2_1_23 riviera/axi_crossbar_v2_1_23
 vmap axi_protocol_converter_v2_1_22 riviera/axi_protocol_converter_v2_1_22
 
 vlog -work xilinx_vip  -sv2k12 "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
@@ -87,6 +89,9 @@ vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../spg_ecu.gen/sources_1/bd/d
 vlog -work generic_baseblocks_v2_1_0  -v2k5 "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
 "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
 
+vlog -work axi_register_slice_v2_1_22  -v2k5 "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/af2c/hdl/axi_register_slice_v2_1_vl_rfs.v" \
+
 vlog -work fifo_generator_v13_2_5  -v2k5 "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
 "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/276e/simulation/fifo_generator_vlog_beh.v" \
 
@@ -99,8 +104,18 @@ vlog -work fifo_generator_v13_2_5  -v2k5 "+incdir+../../../../spg_ecu.gen/source
 vlog -work axi_data_fifo_v2_1_21  -v2k5 "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
 "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/54c0/hdl/axi_data_fifo_v2_1_vl_rfs.v" \
 
-vlog -work axi_register_slice_v2_1_22  -v2k5 "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
-"../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/af2c/hdl/axi_register_slice_v2_1_vl_rfs.v" \
+vlog -work axi_crossbar_v2_1_23  -v2k5 "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/bc0a/hdl/axi_crossbar_v2_1_vl_rfs.v" \
+
+vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
+"../../../bd/design_1/ipshared/31c4/src/ad744.v" \
+"../../../bd/design_1/ipshared/31c4/hdl/ip_m_ad744_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/31c4/src/reg_mux.v" \
+"../../../bd/design_1/ipshared/31c4/src/spi.v" \
+"../../../bd/design_1/ipshared/31c4/src/spi_pp.v" \
+"../../../bd/design_1/ipshared/31c4/hdl/ip_m_ad744_v1_0.v" \
+"../../../bd/design_1/ip/design_1_ip_m_ad744_0_0/sim/design_1_ip_m_ad744_0_0.v" \
 
 vlog -work axi_protocol_converter_v2_1_22  -v2k5 "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
 "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/5cee/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \

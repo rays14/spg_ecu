@@ -1,0 +1,20 @@
+BUG IN VIVADO GENERATED IP MAKEFILES
+-------------------------------------
+When creating IP with Vivado the driver make files don't parse the *.c *.h and
+*.o files correctly.
+
+See the file 1198158_001_Makefile.txt for how to fix this.
+INCLUDEFILES=*.h
+LIBSOURCES=*.c
+OBJECTS = $(addsuffix .o, $(basename $(wildcard *.c)))
+ASSEMBLY_OBJECTS = $(addsuffix .o, $(basename $(wildcard *.S)))
+
+If this does not work then replace *.c, *.h and *.o with the names of the
+driver h/c/o files manually and that fixes the problem on Windows. This should
+work on Linux though.
+INCLUDEFILES=ip_m_pwm.h
+LIBSOURCES=ip_m_pwm.c ip_m_pwm_selftest.c
+OBJECTS=ip_m_pwm.o
+ASSEMBLY_OBJECTS="DO the same for the assembly files accordingly"
+
+

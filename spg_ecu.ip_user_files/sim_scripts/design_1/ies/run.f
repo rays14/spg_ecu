@@ -54,6 +54,9 @@
 -makelib ies_lib/generic_baseblocks_v2_1_0 \
   "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
 -endlib
+-makelib ies_lib/axi_register_slice_v2_1_22 \
+  "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/af2c/hdl/axi_register_slice_v2_1_vl_rfs.v" \
+-endlib
 -makelib ies_lib/fifo_generator_v13_2_5 \
   "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/276e/simulation/fifo_generator_vlog_beh.v" \
 -endlib
@@ -66,8 +69,18 @@
 -makelib ies_lib/axi_data_fifo_v2_1_21 \
   "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/54c0/hdl/axi_data_fifo_v2_1_vl_rfs.v" \
 -endlib
--makelib ies_lib/axi_register_slice_v2_1_22 \
-  "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/af2c/hdl/axi_register_slice_v2_1_vl_rfs.v" \
+-makelib ies_lib/axi_crossbar_v2_1_23 \
+  "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/bc0a/hdl/axi_crossbar_v2_1_vl_rfs.v" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
+  "../../../bd/design_1/ipshared/31c4/src/ad744.v" \
+  "../../../bd/design_1/ipshared/31c4/hdl/ip_m_ad744_v1_0_S00_AXI.v" \
+  "../../../bd/design_1/ipshared/31c4/src/reg_mux.v" \
+  "../../../bd/design_1/ipshared/31c4/src/spi.v" \
+  "../../../bd/design_1/ipshared/31c4/src/spi_pp.v" \
+  "../../../bd/design_1/ipshared/31c4/hdl/ip_m_ad744_v1_0.v" \
+  "../../../bd/design_1/ip/design_1_ip_m_ad744_0_0/sim/design_1_ip_m_ad744_0_0.v" \
 -endlib
 -makelib ies_lib/axi_protocol_converter_v2_1_22 \
   "../../../../spg_ecu.gen/sources_1/bd/design_1/ipshared/5cee/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \

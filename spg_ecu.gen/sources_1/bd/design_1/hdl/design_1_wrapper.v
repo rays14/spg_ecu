@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-//Date        : Fri Feb  3 14:12:53 2023
+//Date        : Tue Feb 14 12:07:37 2023
 //Host        : LAPTOP-LRNTV21L running 64-bit major release  (build 9200)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
@@ -35,9 +35,13 @@ module design_1_wrapper
     arduinoIO5Out,
     arduinoIO6Out,
     arduinoIO7Out,
+    csOut,
     hbLedOut,
     hbOut,
+    misoIn,
+    mosiOut,
     pwm0Out,
+    sclkOut,
     sw2In,
     sw3In,
     sw4In,
@@ -67,9 +71,13 @@ module design_1_wrapper
   output arduinoIO5Out;
   output arduinoIO6Out;
   output arduinoIO7Out;
+  output csOut;
   output hbLedOut;
   output hbOut;
+  input misoIn;
+  output mosiOut;
   output pwm0Out;
+  output sclkOut;
   input sw2In;
   input sw3In;
   input sw4In;
@@ -100,9 +108,13 @@ module design_1_wrapper
   wire arduinoIO5Out;
   wire arduinoIO6Out;
   wire arduinoIO7Out;
+  wire csOut;
   wire hbLedOut;
   wire hbOut;
+  wire misoIn;
+  wire mosiOut;
   wire pwm0Out;
+  wire sclkOut;
   wire sw2In;
   wire sw3In;
   wire sw4In;
@@ -134,9 +146,13 @@ module design_1_wrapper
         .arduinoIO5Out(arduinoIO5Out),
         .arduinoIO6Out(arduinoIO6Out),
         .arduinoIO7Out(arduinoIO7Out),
+        .csOut(csOut),
         .hbLedOut(hbLedOut),
         .hbOut(hbOut),
+        .misoIn(misoIn),
+        .mosiOut(mosiOut),
         .pwm0Out(pwm0Out),
+        .sclkOut(sclkOut),
         .sw2In(sw2In),
         .sw3In(sw3In),
         .sw4In(sw4In),

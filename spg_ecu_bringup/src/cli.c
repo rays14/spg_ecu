@@ -16,6 +16,7 @@
 #include "xuartps_hw.h"
 #include "params.h"
 #include "ip_m_pwm.h"
+#include "ip_m_ad744.h"
 
 static char cmd_history_table[CMD_HIST_SIZE][CMD_SIZE];
 static uint32_t cmd_history_table_current_index = CMD_HIST_SIZE - 1;
@@ -76,13 +77,14 @@ static u8 inbyte_non_blocking(void) {
 #endif
 }
 
+/*
 // control_c_break
 //     Macro - put this where we need to break out of a command via Control-C.
 //     Have to hold down Control-C till the break occurs because we are polling
 //     the Control-C input on ps-uart. Poll the serial port 100 times to look
 //     for a control-C input. If not received then leave. This is just to
 //     break out of a command like xsense that just spews out data.
-//#define control_c_break \
+// #define control_c_break \
 //    do {                                         \
 //        char c;                                  \
 //        for (int32_t j = 0; j < 100; j++) {      \
@@ -92,7 +94,7 @@ static u8 inbyte_non_blocking(void) {
 //            }                                    \
 //        }                                        \
 //    } while (0);
-
+*/
 static int32_t control_c_break(void) {
     char c;
     for (int32_t j = 0; j < 100; j++) {
@@ -116,20 +118,23 @@ static void help_cmd_cb(int argc, char *argv[]);
 static void history_cmd_cb(int argc, char *argv[]);
 static void pwm_cb(int argc, char *argv[]);
 static void freq_cb(int argc, char *argv[]);
+static void ad744_cb(int argc, char *argv[]);
 
 struct cli_cmds_t cmd_table[] = {
     {"menu",    "Command menu.",              NULL,                        menu_cmd_cb},
     {"help",    "Command help.",              NULL,                        help_cmd_cb},
     {"history", "Command history.",           NULL,                        history_cmd_cb},
     {"pwm",     "Set pwm, on-time, period", "<0-3> <0-2^32-1> <0-2^32-1>", pwm_cb},
-	{"freq",    "Set pwm, freq",            "<0-3> <0-16000000>",          freq_cb},
-    {NULL,      NULL,                         NULL,                        NULL}
+	{"freq",    "Set freq, pwm, frequency", "<0-3> <0-16000000>",          freq_cb},
+	{"ad",      "Set ad744, ad744, enable", "<0-3> <0|1>",                 ad744_cb},
+    {NULL,      NULL,                       NULL,                        NULL}
 };
 
-struct {
+struct pwm_reg_table_t {
     uint32_t u32_onTimeReg;
-	uint32_t u32_periodTimeReg
-} s_regTable[] = {
+	uint32_t u32_periodTimeReg;
+};
+struct pwm_reg_table_t s_pwmRegTable[] = {
 	{IP_M_PWM_S00_AXI_SLV_REG0_OFFSET,  IP_M_PWM_S00_AXI_SLV_REG1_OFFSET},
 	{IP_M_PWM_S00_AXI_SLV_REG2_OFFSET,  IP_M_PWM_S00_AXI_SLV_REG3_OFFSET},
 	{IP_M_PWM_S00_AXI_SLV_REG4_OFFSET,  IP_M_PWM_S00_AXI_SLV_REG5_OFFSET},
@@ -139,8 +144,7 @@ struct {
 	{IP_M_PWM_S00_AXI_SLV_REG12_OFFSET, IP_M_PWM_S00_AXI_SLV_REG13_OFFSET},
 	{IP_M_PWM_S00_AXI_SLV_REG14_OFFSET, IP_M_PWM_S00_AXI_SLV_REG15_OFFSET},
 	{IP_M_PWM_S00_AXI_SLV_REG16_OFFSET, IP_M_PWM_S00_AXI_SLV_REG17_OFFSET},
-	{IP_M_PWM_S00_AXI_SLV_REG18_OFFSET, IP_M_PWM_S00_AXI_SLV_REG19_OFFSET},
-	{NULL, NULL}
+	{IP_M_PWM_S00_AXI_SLV_REG18_OFFSET, IP_M_PWM_S00_AXI_SLV_REG19_OFFSET}
 };
 
 static void print_args(int argc, char *argv[]) {
@@ -166,7 +170,7 @@ static void menu_cmd_cb(int argc, char *argv[]) {
     xil_printf(" ----------------------------------\r\n");
     for (uint32_t i = 0; cmd_table[i].cb; i++) {
         char *cmd  = cmd_table[i].cmd;
-        char *cmdd = cmd_table[i].cmd_description;
+        //char *cmdd = cmd_table[i].cmd_description;
         char *cmda = cmd_table[i].cmd_arguments;
         if (cmd) {
             //xil_printf("   %d. %s %s\r\n\t\t%s \r\n", i, cmd, cmda ? cmda : " ", cmdd ? cmdd : " ");
@@ -187,7 +191,7 @@ static void pwm_cb(int argc, char *argv[]) {
     print_args(argc, argv);
 
     if (argc < 3) {
-        xil_printf("[ERROR] pwm_cb : Needs 2 arguments to pwm a b (where a and b are in the range 0 to 16000\n\r");
+        xil_printf("[ERROR] pwm_cb : Needs 3 arguments to pwm a b c (where a is 0-3 b and c are in the range 0 to 16000\n\r");
     } else {
         xil_printf("[NOTE] pwm_cb : Setting pwm = %s, on-time = %s, period-time = %s\n\r", argv[1], argv[2], argv[3]);
 
@@ -199,8 +203,8 @@ static void pwm_cb(int argc, char *argv[]) {
 
         if (u32_pwm < 4) {
         	uint32_t u32_index = u32_pwm * 2;
-        	u32_onTimeReg      = s_regTable[u32_index].u32_onTimeReg;
-        	u32_periodTimeReg  = s_regTable[u32_index].u32_periodTimeReg;
+        	u32_onTimeReg      = s_pwmRegTable[u32_index].u32_onTimeReg;
+        	u32_periodTimeReg  = s_pwmRegTable[u32_index].u32_periodTimeReg;
 
         	xil_printf("[NOTE] pwm_cb : u32_pwm = %d\n\r", u32_pwm);
         	xil_printf("[NOTE] pwm_cb : u32_onTimeReg = %d\n\r", u32_onTimeReg);
@@ -211,6 +215,43 @@ static void pwm_cb(int argc, char *argv[]) {
         } else {
         	xil_printf("[ERROR] pwm_cb : First argument (pwm) only 0-3\n\r");
         }
+    }
+}
+
+static void ad744_cb(int argc, char *argv[]) {
+    xil_printf("\r\nad744_cb\r\n");
+    print_args(argc, argv);
+
+    if (argc < 2) {
+        xil_printf("[ERROR] ad744_cb : Needs 2 arguments to ad a b (where a is 0-3 and b is 0 or 1\n\r");
+    } else {
+
+    	uint32_t u32_ad744   = (uint32_t)atoi(argv[1]);
+    	uint32_t u32_enable  = (uint32_t)atoi(argv[2]);
+    	uint32_t u32_control = 0;
+    	uint32_t u32_status  = 0;
+
+    	xil_printf("[NOTE] ad744_cb : u32_ad744  = %d\n\r", u32_ad744);
+    	xil_printf("[NOTE] ad744_cb : u32_enable = %d\n\r", u32_enable);
+
+    	// Read the control word
+    	u32_control = IP_M_AD744_mReadReg(IP_M_AD744_BADDR, IP_M_AD744_S00_AXI_SLV_REG0_OFFSET); // AD744-Control Read
+
+    	// Set the control word
+    	u32_control = (u32_enable == 1) ? (u32_control | 0x00000001) : (u32_control & (~0x00000001));
+    	IP_M_AD744_mWriteReg(IP_M_AD744_BADDR, IP_M_AD744_S00_AXI_SLV_REG0_OFFSET, u32_control); // AD744-Control Write
+
+    	// Read the status word
+    	if (u32_enable == 1) {
+    		int32_t cc = 0;
+    		do {
+    			cc = control_c_break();
+    			u32_status = IP_M_AD744_mReadReg(IP_M_AD744_BADDR, IP_M_AD744_S00_AXI_SLV_REG1_OFFSET); // AD744-Status Read
+    		} while (u32_status == 0 && cc == 0);
+    	}
+    	// Print out the data received
+
+
     }
 }
 
@@ -232,8 +273,8 @@ static void freq_cb(int argc, char *argv[]) {
 
         if (u32_pwm < 4) {
         	uint32_t u32_index = u32_pwm * 2;
-        	u32_onTimeReg      = s_regTable[u32_index].u32_onTimeReg;
-        	u32_periodTimeReg  = s_regTable[u32_index].u32_periodTimeReg;
+        	u32_onTimeReg      = s_pwmRegTable[u32_index].u32_onTimeReg;
+        	u32_periodTimeReg  = s_pwmRegTable[u32_index].u32_periodTimeReg;
 
         	xil_printf("[NOTE] pwm_cb : u32_pwm  = %d\n\r", u32_pwm);
         	xil_printf("[NOTE] pwm_cb : u32_freq = %d\n\r", u32_freq);
@@ -271,6 +312,7 @@ void cli_init(void) {
             cmd_history_table[i][j] = '0';
         }
     }
+    (void)control_c_break;
 }
 
 static void cli_parse_cmd(char *cmd) {

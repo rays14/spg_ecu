@@ -21,3 +21,11 @@ set_property src_info {type:XDC file:1 line:101 export:INPUT save:INPUT read:REA
 set_property -dict { PACKAGE_PIN V20   IOSTANDARD LVCMOS33 } [get_ports { arduinoIO6Out }]; #IO_L16P_T2_34 Sch=JB2_P
 set_property src_info {type:XDC file:1 line:102 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN W20   IOSTANDARD LVCMOS33 } [get_ports { arduinoIO7Out }]; #IO_L16N_T2_34 Sch=JB2_N
+set_property src_info {type:XDC file:1 line:113 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V15   IOSTANDARD LVCMOS33 } [get_ports { csOut   }]; #IO_L10P_T1_34 Sch=JC1_P
+set_property src_info {type:XDC file:1 line:114 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W15   IOSTANDARD LVCMOS33 } [get_ports { sclkOut }]; #IO_L10N_T1_34 Sch=JC1_N
+set_property src_info {type:XDC file:1 line:115 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN T11   IOSTANDARD LVCMOS33 } [get_ports { mosiOut }]; #IO_L1P_T0_34 Sch=JC2_P
+set_property src_info {type:XDC file:1 line:116 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN T10   IOSTANDARD LVCMOS33 } [get_ports { misoIn  }]; #IO_L1N_T0_34 Sch=JC2_N
