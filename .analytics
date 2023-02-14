@@ -127,3 +127,6 @@ timestamp=[2023-02-14 11:53:24], mode=PLATFORM_GENERATION, duration=0:00:01.711,
 timestamp=[2023-02-14 11:53:33], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
 timestamp=[2023-02-14 12:16:17], mode=PLATFORM_GENERATION, duration=0:00:01.703, duration_ms=1703, data={name=spg_ecu_platform}
 timestamp=[2023-02-14 12:16:22], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-02-14 12:28:02], mode=BUILD, duration=0:00:00.649, duration_ms=649, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-02-14 12:36:53], mode=BUILD, duration=0:00:00.551, duration_ms=551, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}
+timestamp=[2023-02-14 13:39:03], mode=BUILD, duration=0:00:00.257, duration_ms=257, data={name=spg_ecu_bringup, configuration=Debug, clean_build=false}

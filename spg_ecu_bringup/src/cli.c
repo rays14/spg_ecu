@@ -230,6 +230,8 @@ static void ad744_cb(int argc, char *argv[]) {
     	uint32_t u32_enable  = (uint32_t)atoi(argv[2]);
     	uint32_t u32_control = 0;
     	uint32_t u32_status  = 0;
+    	uint32_t u32_data0   = 0;
+    	uint32_t u32_data1   = 0;
 
     	xil_printf("[NOTE] ad744_cb : u32_ad744  = %d\n\r", u32_ad744);
     	xil_printf("[NOTE] ad744_cb : u32_enable = %d\n\r", u32_enable);
@@ -249,9 +251,14 @@ static void ad744_cb(int argc, char *argv[]) {
     			u32_status = IP_M_AD744_mReadReg(IP_M_AD744_BADDR, IP_M_AD744_S00_AXI_SLV_REG1_OFFSET); // AD744-Status Read
     		} while (u32_status == 0 && cc == 0);
     	}
+
     	// Print out the data received
+    	u32_data0 = IP_M_AD744_mReadReg(IP_M_AD744_BADDR, IP_M_AD744_S00_AXI_SLV_REG2_OFFSET);
+    	u32_data1 = IP_M_AD744_mReadReg(IP_M_AD744_BADDR, IP_M_AD744_S00_AXI_SLV_REG3_OFFSET);
 
-
+    	xil_printf("[NOTE] ad744_cb : u32_status = 0x%08x\n\r", u32_status);
+    	xil_printf("[NOTE] ad744_cb : u32_data0  = 0x%08x\n\r", u32_data0);
+    	xil_printf("[NOTE] ad744_cb : u32_data1  = 0x%08x\n\r", u32_data1);
     }
 }
 

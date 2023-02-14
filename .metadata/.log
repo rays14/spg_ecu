@@ -7100,3 +7100,786 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-39: Launc
 
 !ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:16:42.448
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-39: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:01.457
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss ], Thread: Worker-44: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:01.461
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-44: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:01.461
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Thread: Worker-44: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:01.464
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-44: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-02-14 12:28:01.465
+!MESSAGE Generating MD5 hash for file: C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_platform\export\spg_ecu_platform\sw\spg_ecu_platform\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:01.466
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Thread: Worker-44: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:01.468
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-44: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:06.982
+!MESSAGE XSCT Command: [disconnect tcfchan#9], Thread: Thread-645
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:06.992
+!MESSAGE XSCT command with result: [disconnect tcfchan#9], Result: [null, ]. Thread: Thread-645
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.004
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.008
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#10]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.009
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.017
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.017
+!MESSAGE XSCT Command: [version -server], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.018
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.019
+!MESSAGE XSCT Command: [version], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.020
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.020
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.024
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.025
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.035
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.035
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.039
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.040
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.051
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.051
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.055
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.055
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.066
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.066
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.071
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.071
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.081
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.082
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.085
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.086
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.097
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.098
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.102
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.102
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.113
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.113
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279777768A" && level == 0}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.125
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279777768A" && level == 0}], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.125
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.127
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.127
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.137
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.137
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.221
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:08.222
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:11.224
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:11.237
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:11.241
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:11.242
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:11.252
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:11.253
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:11.276
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:11.276
+!MESSAGE XSCT Command: [fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.486
+!MESSAGE XSCT command with result: [fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.502
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.512
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.512
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.518
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_14]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.519
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.520
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.521
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.527
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.528
+!MESSAGE XSCT Command: [source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.529
+!MESSAGE XSCT command with result: [source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.530
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.821
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.822
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.828
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.829
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.834
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.834
+!MESSAGE XSCT Command: [dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.991
+!MESSAGE XSCT command with result: [dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:12.992
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:13.039
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:13.074
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:13.081
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:13.081
+!MESSAGE XSCT Command: [con], Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:28:13.097
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-36: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:52.485
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss ], Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:52.490
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:52.490
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:52.493
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-02-14 12:36:52.493
+!MESSAGE Generating MD5 hash for file: C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_platform\export\spg_ecu_platform\sw\spg_ecu_platform\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:52.494
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:52.496
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-47: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:57.186
+!MESSAGE XSCT Command: [disconnect tcfchan#10], Thread: Thread-717
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:57.189
+!MESSAGE XSCT command with result: [disconnect tcfchan#10], Result: [null, ]. Thread: Thread-717
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.202
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.206
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#11]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.207
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.223
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.223
+!MESSAGE XSCT Command: [version -server], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.224
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.225
+!MESSAGE XSCT Command: [version], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.225
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.225
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.229
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.229
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.240
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.241
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.245
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.245
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.257
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.257
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.262
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.262
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.273
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.274
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.278
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.278
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.288
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.289
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.293
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.293
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.304
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.304
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.308
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.309
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.319
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.319
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279777768A" && level == 0}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.330
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279777768A" && level == 0}], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.331
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.332
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.332
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.347
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.348
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.429
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:36:58.430
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:01.431
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:01.440
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:01.444
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:01.445
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:01.456
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:01.457
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:01.478
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:01.479
+!MESSAGE XSCT Command: [fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.691
+!MESSAGE XSCT command with result: [fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.703
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.711
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.712
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.717
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_14]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.718
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.720
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.720
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.727
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.728
+!MESSAGE XSCT Command: [source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.730
+!MESSAGE XSCT command with result: [source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:02.731
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.054
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.055
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.061
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.062
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.068
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.069
+!MESSAGE XSCT Command: [dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.219
+!MESSAGE XSCT command with result: [dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.220
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.264
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.298
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.305
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.305
+!MESSAGE XSCT Command: [con], Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 12:37:03.322
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-38: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:03.523
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss ], Thread: Worker-58: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:03.531
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-58: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:03.532
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Thread: Worker-58: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:03.536
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-58: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-02-14 13:39:03.536
+!MESSAGE Generating MD5 hash for file: C:\Users\SidRay\Documents\topper\projs\git\spg_ecu\spg_ecu_platform\export\spg_ecu_platform\sw\spg_ecu_platform\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:03.539
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Thread: Worker-58: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:03.540
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/sw/spg_ecu_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-58: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:09.585
+!MESSAGE XSCT Command: [disconnect tcfchan#11], Thread: Thread-772
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:09.589
+!MESSAGE XSCT command with result: [disconnect tcfchan#11], Result: [null, ]. Thread: Thread-772
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.602
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.609
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#12]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.609
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.618
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.619
+!MESSAGE XSCT Command: [version -server], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.620
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.620
+!MESSAGE XSCT Command: [version], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.620
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.621
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.625
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.625
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.635
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.635
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.639
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.640
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.651
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.651
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.655
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.656
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.667
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.667
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.672
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.672
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.683
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.683
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.688
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.689
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.699
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.699
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.704
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.704
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.716
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.717
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279777768A" && level == 0}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.727
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279777768A" && level == 0}], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.728
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.729
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.729
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.738
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.739
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.818
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:10.819
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:13.821
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:13.837
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:13.842
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279777768A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:13.842
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:13.854
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:13.854
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:13.876
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279777768A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279777768A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:13.876
+!MESSAGE XSCT Command: [fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.091
+!MESSAGE XSCT command with result: [fpga -file C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu.runs/impl_1/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.107
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.115
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.115
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.120
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_platform/export/spg_ecu_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_14]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.120
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.121
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.122
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.128
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.128
+!MESSAGE XSCT Command: [source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.130
+!MESSAGE XSCT command with result: [source C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.131
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.424
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.424
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.432
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.433
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.439
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.440
+!MESSAGE XSCT Command: [dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.604
+!MESSAGE XSCT command with result: [dow C:/Users/SidRay/Documents/topper/projs/git/spg_ecu/spg_ecu_bringup/Debug/spg_ecu_bringup.elf], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.605
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.654
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.685
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.692
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.692
+!MESSAGE XSCT Command: [con], Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-02-14 13:39:15.709
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-59: Launching Debugger_spg_ecu_bringup-Default
